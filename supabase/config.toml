@@ -1,0 +1,10 @@
+project_id = "rzysgsottykfxydvhsae"
+
+[functions.analyze-vulnerabilities]
+verify_jwt = false
+
+[functions.generate-report]
+verify_jwt = false
+
+[functions.nmap-scan]
+verify_jwt = false
