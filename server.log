@@ -1,0 +1,1982 @@
+INFO:     Started server process [60150]
+INFO:     Waiting for application startup.
+2026-01-22 22:01:32,270 - core.orchestrator - INFO - Syncing history from AcunetixAdapter...
+2026-01-22 22:01:32,298 - httpx - INFO - HTTP Request: GET https://kali:3443//api/v1/scans "HTTP/1.1 200 OK"
+2026-01-22 22:01:32,299 - core.orchestrator - INFO - Synced 0 scans from AcunetixAdapter.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8060 (Press CTRL+C to quit)
+INFO:     127.0.0.1:38272 - "POST /api/v1/nmap/scan HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:60744 - "GET /api/v1/logs/b9cb4aca-cef5-4369-a402-7dd1beef0806 HTTP/1.1" 200 OK
+2026-01-22 22:01:58,247 - adapters.nmap - ERROR - Nmap execution error: 1 validation error for Finding
+asset_type
+  Field required [type=missing, input_value={'scanner': 'nmap', 'name...'url': '127.0.0.1:3000'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+INFO:     127.0.0.1:60756 - "GET /api/v1/logs/b9cb4aca-cef5-4369-a402-7dd1beef0806 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56796 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56796 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56796 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56796 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56796 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56796 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56796 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56796 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56796 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56796 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33986 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33986 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33986 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33986 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33986 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33986 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33986 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33986 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33986 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33986 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33986 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33986 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33986 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33986 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33986 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33986 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     10.4.7.201:42898 - "GET /api/v1/dashboard/summary HTTP/1.1" 200 OK
+INFO:     10.4.7.201:42900 - "GET /api/v1/dashboard/scans?limit=10 HTTP/1.1" 200 OK
+2026-01-22 22:03:22,203 - adapters.garak - INFO - Fetching HF models from: https://huggingface.co/api/models?pipeline_tag=text-generation&limit=50
+2026-01-22 22:03:22,484 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models?pipeline_tag=text-generation&limit=50 "HTTP/1.1 200 OK"
+INFO:     10.4.7.201:42898 - "GET /api/v1/garak/models?limit=50 HTTP/1.1" 200 OK
+2026-01-22 22:03:22,749 - adapters.garak - INFO - Garak stdout: garak LLM vulnerability scanner v0.13.3 ( https://github.com/NVIDIA/garak ) at 2026-01-22T22:03:22.556359
+[1m[93mprobes: [0mansiescape 🌟
+[1m[93mprobes: [0mansiescape.AnsiEscaped
+[1m[93mprobes: [0mansiescape.AnsiRaw
+[1m[93mprobes: [0mansiescape.AnsiRawTokenizerHF 💤
+[1m[93mprobes: [0mapikey 🌟
+[1m[93mprobes: [0mapikey.CompleteKey
+[1m[93mprobes: [0mapikey.GetKey
+[1m[93mprobes: [0matkgen 🌟
+[1m[93mprobes: [0matkgen.Tox
+[1m[93mprobes: [0maudio 🌟
+[1m[93mprobes: [0maudio.AudioAchillesHeel 💤
+[1m[93mprobes: [0mav_spam_scanning 🌟
+[1m[93mprobes: [0mav_spam_scanning.EICAR 💤
+[1m[93mprobes: [0mav_spam_scanning.GTUBE 💤
+[1m[93mprobes: [0mav_spam_scanning.GTphish 💤
+[1m[93mprobes: [0mbadchars 🌟
+[1m[93mprobes: [0mbadchars.BadCharacters 💤
+[1m[93mprobes: [0mcontinuation 🌟
+[1m[93mprobes: [0mcontinuation.ContinueSlursReclaimedSlurs
+[1m[93mprobes: [0mcontinuation.ContinueSlursReclaimedSlursFull 💤
+[1m[93mprobes: [0mdan 🌟
+[1m[93mprobes: [0mdan.Ablation_Dan_11_0
+[1m[93mprobes: [0mdan.AntiDAN 💤
+[1m[93mprobes: [0mdan.AutoDAN 💤
+[1m[93mprobes: [0mdan.AutoDANCached
+[1m[93mprobes: [0mdan.ChatGPT_Developer_Mode_RANTI 💤
+[1m[93mprobes: [0mdan.ChatGPT_Developer_Mode_v2 💤
+[1m[93mprobes: [0mdan.ChatGPT_Image_Markdown 💤
+[1m[93mprobes: [0mdan.DAN_Jailbreak 💤
+[1m[93mprobes: [0mdan.DUDE 💤
+[1m[93mprobes: [0mdan.DanInTheWild
+[1m[93mprobes: [0mdan.DanInTheWildFull 💤
+[1m[93mprobes: [0mdan.Dan_10_0 💤
+[1m[93mprobes: [0mdan.Dan_11_0 💤
+[1m[93mprobes: [0mdan.Dan_6_0 💤
+[1m[93mprobes: [0mdan.Dan_6_2 💤
+[1m[93mprobes: [0mdan.Dan_7_0 💤
+[1m[93mprobes: [0mdan.Dan_8_0 💤
+[1m[93mprobes: [0mdan.Dan_9_0 💤
+[1m[93mprobes: [0mdan.STAN 💤
+[1m[93mprobes: [0mdivergence 🌟
+[1m[93mprobes: [0mdivergence.Repeat
+[1m[93mprobes: [0mdivergence.RepeatExtended 💤
+[1m[93mprobes: [0mdivergence.RepeatedToken
+[1m[93mprobes: [0mdoctor 🌟
+[1m[93mprobes: [0mdoctor.Bypass 💤
+[1m[93mprobes: [0mdoctor.BypassLeet 💤
+[1m[93mprobes: [0mdoctor.Puppetry 💤
+[1m[93mprobes: [0mdonotanswer 🌟
+[1m[93mprobes: [0mdonotanswer.DiscriminationExclusionToxicityHatefulOffensive 💤
+[1m[93mprobes: [0mdonotanswer.HumanChatbox 💤
+[1m[93mprobes: [0mdonotanswer.InformationHazard 💤
+[1m[93mprobes: [0mdonotanswer.MaliciousUses 💤
+[1m[93mprobes: [0mdonotanswer.MisinformationHarms 💤
+[1m[93mprobes: [0mdra 🌟
+[1m[93mprobes: [0mdra.DRA
+[1m[93mprobes: [0mdra.DRAAdvanced 💤
+[1m[93mprobes: [0mencoding 🌟
+[1m[93mprobes: [0mencoding.InjectAscii85
+[1m[93mprobes: [0mencoding.InjectAtbash
+[1m[93mprobes: [0mencoding.InjectBase16
+[1m[93mprobes: [0mencoding.InjectBase2048
+[1m[93mprobes: [0mencoding.InjectBase32
+[1m[93mprobes: [0mencoding.InjectBase64
+[1m[93mprobes: [0mencoding.InjectBraille
+[1m[93mprobes: [0mencoding.InjectEcoji
+[1m[93mprobes: [0mencoding.InjectHex
+[1m[93mprobes: [0mencoding.InjectLeet 💤
+[1m[93mprobes: [0mencoding.InjectMime 💤
+[1m[93mprobes: [0mencoding.InjectMorse
+[1m[93mprobes: [0mencoding.InjectNato
+[1m[93mprobes: [0mencoding.InjectQP 💤
+[1m[93mprobes: [0mencoding.InjectROT13
+[1m[93mprobes: [0mencoding.InjectSneakyBits 💤
+[1m[93mprobes: [0mencoding.InjectUU
+[1m[93mprobes: [0mencoding.InjectUnicodeTagChars
+[1m[93mprobes: [0mencoding.InjectUnicodeVariantSelectors 💤
+[1m[93mprobes: [0mencoding.InjectZalgo
+[1m[93mprobes: [0mexploitation 🌟
+[1m[93mprobes: [0mexploitation.JinjaTemplatePythonInjection
+[1m[93mprobes: [0mexploitation.SQLInjectionEcho
+[1m[93mprobes: [0mexploitation.SQLInjectionSystem 💤
+[1m[93mprobes: [0mfileformats 🌟
+[1m[93mprobes: [0mfileformats.HF_Files 💤
+[1m[93mprobes: [0mfitd 🌟
+[1m[93mprobes: [0mfitd.FITD 💤
+[1m[93mprobes: [0mglitch 🌟
+[1m[93mprobes: [0mglitch.Glitch 💤
+[1m[93mprobes: [0mglitch.GlitchFull 💤
+[1m[93mprobes: [0mgoodside 🌟
+[1m[93mprobes: [0mgoodside.Davidjl 💤
+[1m[93mprobes: [0mgoodside.Tag
+[1m[93mprobes: [0mgoodside.ThreatenJSON
+[1m[93mprobes: [0mgoodside.WhoIsRiley
+[1m[93mprobes: [0mgrandma 🌟
+[1m[93mprobes: [0mgrandma.Slurs
+[1m[93mprobes: [0mgrandma.Substances
+[1m[93mprobes: [0mgrandma.Win10
+[1m[93mprobes: [0mgrandma.Win11
+[1m[93mprobes: [0mlatentinjection 🌟
+[1m[93mprobes: [0mlatentinjection.LatentInjectionFactSnippetEiffel
+[1m[93mprobes: [0mlatentinjection.LatentInjectionFactSnippetEiffelFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentInjectionFactSnippetLegal
+[1m[93mprobes: [0mlatentinjection.LatentInjectionFactSnippetLegalFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentInjectionReport
+[1m[93mprobes: [0mlatentinjection.LatentInjectionReportFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentInjectionResume
+[1m[93mprobes: [0mlatentinjection.LatentInjectionResumeFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentInjectionTranslationEnFr
+[1m[93mprobes: [0mlatentinjection.LatentInjectionTranslationEnFrFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentInjectionTranslationEnZh
+[1m[93mprobes: [0mlatentinjection.LatentInjectionTranslationEnZhFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentJailbreak
+[1m[93mprobes: [0mlatentinjection.LatentJailbreakFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentWhois
+[1m[93mprobes: [0mlatentinjection.LatentWhoisSnippet
+[1m[93mprobes: [0mlatentinjection.LatentWhoisSnippetFull 💤
+[1m[93mprobes: [0mleakreplay 🌟
+[1m[93mprobes: [0mleakreplay.GuardianCloze
+[1m[93mprobes: [0mleakreplay.GuardianClozeFull 💤
+[1m[93mprobes: [0mleakreplay.GuardianComplete
+[1m[93mprobes: [0mleakreplay.GuardianCompleteFull 💤
+[1m[93mprobes: [0mleakreplay.LiteratureCloze
+[1m[93mprobes: [0mleakreplay.LiteratureClozeFull 💤
+[1m[93mprobes: [0mleakreplay.LiteratureComplete
+[1m[93mprobes: [0mleakreplay.LiteratureCompleteFull 💤
+[1m[93mprobes: [0mleakreplay.NYTCloze
+[1m[93mprobes: [0mleakreplay.NYTClozeFull 💤
+[1m[93mprobes: [0mleakreplay.NYTComplete
+[1m[93mprobes: [0mleakreplay.NYTCompleteFull 💤
+[1m[93mprobes: [0mleakreplay.PotterCloze
+[1m[93mprobes: [0mleakreplay.PotterClozeFull 💤
+[1m[93mprobes: [0mleakreplay.PotterComplete
+[1m[93mprobes: [0mleakreplay.PotterCompleteFull 💤
+[1m[93mprobes: [0mlmrc 🌟
+[1m[93mprobes: [0mlmrc.Anthropomorphisation 💤
+[1m[93mprobes: [0mlmrc.Bullying
+[1m[93mprobes: [0mlmrc.Deadnaming
+[1m[93mprobes: [0mlmrc.Profanity 💤
+[1m[93mprobes: [0mlmrc.QuackMedicine
+[1m[93mprobes: [0mlmrc.SexualContent
+[1m[93mprobes: [0mlmrc.Sexualisation
+[1m[93mprobes: [0mlmrc.SlurUsage
+[1m[93mprobes: [0mmalwaregen 🌟
+[1m[93mprobes: [0mmalwaregen.Evasion
+[1m[93mprobes: [0mmalwaregen.Payload
+[1m[93mprobes: [0mmalwaregen.SubFunctions
+[1m[93mprobes: [0mmalwaregen.TopLevel
+[1m[93mprobes: [0mmisleading 🌟
+[1m[93mprobes: [0mmisleading.FalseAssertion
+[1m[93mprobes: [0mpackagehallucination 🌟
+[1m[93mprobes: [0mpackagehallucination.Dart
+[1m[93mprobes: [0mpackagehallucination.JavaScript
+[1m[93mprobes: [0mpackagehallucination.Perl
+[1m[93mprobes: [0mpackagehallucination.Python
+[1m[93mprobes: [0mpackagehallucination.RakuLand
+[1m[93mprobes: [0mpackagehallucination.Ruby
+[1m[93mprobes: [0mpackagehallucination.Rust
+[1m[93mprobes: [0mphrasing 🌟
+[1m[93mprobes: [0mphrasing.FutureTense
+[1m[93mprobes: [0mphrasing.FutureTenseFull 💤
+[1m[93mprobes: [0mphrasing.PastTense
+[1m[93mprobes: [0mphrasing.PastTenseFull 💤
+[1m[93mprobes: [0mpromptinject 🌟
+[1m[93mprobes: [0mpromptinject.HijackHateHumans
+[1m[93mprobes: [0mpromptinject.HijackHateHumansFull 💤
+[1m[93mprobes: [0mpromptinject.HijackKillHumans
+[1m[93mprobes: [0mpromptinject.HijackKillHumansFull 💤
+[1m[93mprobes: [0mpromptinject.HijackLongPrompt
+[1m[93mprobes: [0mpromptinject.HijackLongPromptFull 💤
+[1m[93mprobes: [0mrealtoxicityprompts 🌟
+[1m[93mprobes: [0mrealtoxicityprompts.RTPBlank
+[1m[93mprobes: [0mrealtoxicityprompts.RTPFlirtation 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPIdentity_Attack 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPInsult 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPProfanity 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPSevere_Toxicity 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPSexually_Explicit 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPThreat 💤
+[1m[93mprobes: [0msata 🌟
+[1m[93mprobes: [0msata.MLM 💤
+[1m[93mprobes: [0msmuggling 🌟
+[1m[93mprobes: [0msmuggling.FunctionMasking 💤
+[1m[93mprobes: [0msmuggling.HypotheticalResponse 💤
+[1m[93mprobes: [0msnowball 🌟
+[1m[93mprobes: [0msnowball.GraphConnectivity
+[1m[93mprobes: [0msnowball.GraphConnectivityFull 💤
+[1m[93mprobes: [0msnowball.Primes 💤
+[1m[93mprobes: [0msnowball.PrimesFull 💤
+[1m[93mprobes: [0msnowball.Senators 💤
+[1m[93mprobes: [0msnowball.SenatorsFull 💤
+[1m[93mprobes: [0msuffix 🌟
+[1m[93mprobes: [0msuffix.BEAST 💤
+[1m[93mprobes: [0msuffix.GCG 💤
+[1m[93mprobes: [0msuffix.GCGCached
+[1m[93mprobes: [0mtap 🌟
+[1m[93mprobes: [0mtap.PAIR 💤
+[1m[93mprobes: [0mtap.TAP 💤
+[1m[93mprobes: [0mtap.TAPCached
+[1m[93mprobes: [0mtest 🌟
+[1m[93mprobes: [0mtest.Blank 💤
+[1m[93mprobes: [0mtest.Test 💤
+[1m[93mprobes: [0mtopic 🌟
+[1m[93mprobes: [0mtopic.WordnetAllowedWords 💤
+[1m[93mprobes: [0mtopic.WordnetBlockedWords 💤
+[1m[93mprobes: [0mtopic.WordnetControversial
+[1m[93mprobes: [0mvisual_jailbreak 🌟
+[1m[93mprobes: [0mvisual_jailbreak.FigStep 💤
+[1m[93mprobes: [0mvisual_jailbreak.FigStepFull 💤
+[1m[93mprobes: [0mweb_injection 🌟
+[1m[93mprobes: [0mweb_injection.ColabAIDataLeakage
+[1m[93mprobes: [0mweb_injection.MarkdownImageExfil
+[1m[93mprobes: [0mweb_injection.MarkdownURIImageExfilExtended
+[1m[93mprobes: [0mweb_injection.MarkdownURINonImageExfilExtended
+[1m[93mprobes: [0mweb_injection.MarkdownXSS
+[1m[93mprobes: [0mweb_injection.PlaygroundMarkdownExfil
+[1m[93mprobes: [0mweb_injection.StringAssemblyDataExfil
+[1m[93mprobes: [0mweb_injection.TaskXSS
+
+2026-01-22 22:03:22,750 - adapters.garak - ERROR - Garak stderr: 
+2026-01-22 22:03:22,750 - adapters.garak - INFO - Garak return code: 0
+2026-01-22 22:03:22,750 - adapters.garak - INFO - Line clean: 'garak LLM vulnerability scanner v0.13.3 ( https://github.com/NVIDIA/garak ) at 2026-01-22T22:03:22.556359'
+2026-01-22 22:03:22,750 - adapters.garak - INFO - Line clean: 'probes: ansiescape 🌟'
+2026-01-22 22:03:22,750 - adapters.garak - INFO - Line clean: 'probes: ansiescape.AnsiEscaped'
+2026-01-22 22:03:22,750 - adapters.garak - INFO - Line clean: 'probes: ansiescape.AnsiRaw'
+2026-01-22 22:03:22,750 - adapters.garak - INFO - Line clean: 'probes: ansiescape.AnsiRawTokenizerHF 💤'
+2026-01-22 22:03:22,750 - adapters.garak - INFO - Parsed 218 probes.
+INFO:     10.4.7.201:42898 - "GET /api/v1/garak/probes HTTP/1.1" 200 OK
+2026-01-22 22:03:29,732 - httpx - INFO - HTTP Request: POST https://kali:3443//api/v1/targets "HTTP/1.1 201 Created"
+2026-01-22 22:03:29,746 - httpx - INFO - HTTP Request: POST https://kali:3443//api/v1/scans "HTTP/1.1 201 Created"
+INFO:     10.4.7.201:59978 - "POST /api/v1/acunetix/scan HTTP/1.1" 200 OK
+2026-01-22 22:03:29,811 - httpx - INFO - HTTP Request: GET https://kali:3443//api/v1/scans/59d8c5ef-a01f-471b-bb1f-442d8c32bcc1 "HTTP/1.1 200 OK"
+INFO:     10.4.7.201:59978 - "GET /api/v1/acunetix/results/18552453-3b6e-49f0-9f57-095528f5ee48 HTTP/1.1" 200 OK
+2026-01-22 22:03:29,826 - httpx - INFO - HTTP Request: GET https://kali:3443//api/v1/scans/59d8c5ef-a01f-471b-bb1f-442d8c32bcc1 "HTTP/1.1 200 OK"
+INFO:     10.4.7.201:59984 - "GET /api/v1/acunetix/status/18552453-3b6e-49f0-9f57-095528f5ee48 HTTP/1.1" 200 OK
+INFO:     10.4.7.201:59323 - "GET /openapi.json HTTP/1.1" 200 OK
+2026-01-22 22:03:44,838 - adapters.garak - INFO - Fetching HF models from: https://huggingface.co/api/models?pipeline_tag=text-generation&limit=50
+2026-01-22 22:03:45,100 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models?pipeline_tag=text-generation&limit=50 "HTTP/1.1 200 OK"
+INFO:     10.4.7.201:41246 - "GET /api/v1/garak/models?limit=50 HTTP/1.1" 200 OK
+2026-01-22 22:03:45,343 - adapters.garak - INFO - Garak stdout: garak LLM vulnerability scanner v0.13.3 ( https://github.com/NVIDIA/garak ) at 2026-01-22T22:03:45.146150
+[1m[93mprobes: [0mansiescape 🌟
+[1m[93mprobes: [0mansiescape.AnsiEscaped
+[1m[93mprobes: [0mansiescape.AnsiRaw
+[1m[93mprobes: [0mansiescape.AnsiRawTokenizerHF 💤
+[1m[93mprobes: [0mapikey 🌟
+[1m[93mprobes: [0mapikey.CompleteKey
+[1m[93mprobes: [0mapikey.GetKey
+[1m[93mprobes: [0matkgen 🌟
+[1m[93mprobes: [0matkgen.Tox
+[1m[93mprobes: [0maudio 🌟
+[1m[93mprobes: [0maudio.AudioAchillesHeel 💤
+[1m[93mprobes: [0mav_spam_scanning 🌟
+[1m[93mprobes: [0mav_spam_scanning.EICAR 💤
+[1m[93mprobes: [0mav_spam_scanning.GTUBE 💤
+[1m[93mprobes: [0mav_spam_scanning.GTphish 💤
+[1m[93mprobes: [0mbadchars 🌟
+[1m[93mprobes: [0mbadchars.BadCharacters 💤
+[1m[93mprobes: [0mcontinuation 🌟
+[1m[93mprobes: [0mcontinuation.ContinueSlursReclaimedSlurs
+[1m[93mprobes: [0mcontinuation.ContinueSlursReclaimedSlursFull 💤
+[1m[93mprobes: [0mdan 🌟
+[1m[93mprobes: [0mdan.Ablation_Dan_11_0
+[1m[93mprobes: [0mdan.AntiDAN 💤
+[1m[93mprobes: [0mdan.AutoDAN 💤
+[1m[93mprobes: [0mdan.AutoDANCached
+[1m[93mprobes: [0mdan.ChatGPT_Developer_Mode_RANTI 💤
+[1m[93mprobes: [0mdan.ChatGPT_Developer_Mode_v2 💤
+[1m[93mprobes: [0mdan.ChatGPT_Image_Markdown 💤
+[1m[93mprobes: [0mdan.DAN_Jailbreak 💤
+[1m[93mprobes: [0mdan.DUDE 💤
+[1m[93mprobes: [0mdan.DanInTheWild
+[1m[93mprobes: [0mdan.DanInTheWildFull 💤
+[1m[93mprobes: [0mdan.Dan_10_0 💤
+[1m[93mprobes: [0mdan.Dan_11_0 💤
+[1m[93mprobes: [0mdan.Dan_6_0 💤
+[1m[93mprobes: [0mdan.Dan_6_2 💤
+[1m[93mprobes: [0mdan.Dan_7_0 💤
+[1m[93mprobes: [0mdan.Dan_8_0 💤
+[1m[93mprobes: [0mdan.Dan_9_0 💤
+[1m[93mprobes: [0mdan.STAN 💤
+[1m[93mprobes: [0mdivergence 🌟
+[1m[93mprobes: [0mdivergence.Repeat
+[1m[93mprobes: [0mdivergence.RepeatExtended 💤
+[1m[93mprobes: [0mdivergence.RepeatedToken
+[1m[93mprobes: [0mdoctor 🌟
+[1m[93mprobes: [0mdoctor.Bypass 💤
+[1m[93mprobes: [0mdoctor.BypassLeet 💤
+[1m[93mprobes: [0mdoctor.Puppetry 💤
+[1m[93mprobes: [0mdonotanswer 🌟
+[1m[93mprobes: [0mdonotanswer.DiscriminationExclusionToxicityHatefulOffensive 💤
+[1m[93mprobes: [0mdonotanswer.HumanChatbox 💤
+[1m[93mprobes: [0mdonotanswer.InformationHazard 💤
+[1m[93mprobes: [0mdonotanswer.MaliciousUses 💤
+[1m[93mprobes: [0mdonotanswer.MisinformationHarms 💤
+[1m[93mprobes: [0mdra 🌟
+[1m[93mprobes: [0mdra.DRA
+[1m[93mprobes: [0mdra.DRAAdvanced 💤
+[1m[93mprobes: [0mencoding 🌟
+[1m[93mprobes: [0mencoding.InjectAscii85
+[1m[93mprobes: [0mencoding.InjectAtbash
+[1m[93mprobes: [0mencoding.InjectBase16
+[1m[93mprobes: [0mencoding.InjectBase2048
+[1m[93mprobes: [0mencoding.InjectBase32
+[1m[93mprobes: [0mencoding.InjectBase64
+[1m[93mprobes: [0mencoding.InjectBraille
+[1m[93mprobes: [0mencoding.InjectEcoji
+[1m[93mprobes: [0mencoding.InjectHex
+[1m[93mprobes: [0mencoding.InjectLeet 💤
+[1m[93mprobes: [0mencoding.InjectMime 💤
+[1m[93mprobes: [0mencoding.InjectMorse
+[1m[93mprobes: [0mencoding.InjectNato
+[1m[93mprobes: [0mencoding.InjectQP 💤
+[1m[93mprobes: [0mencoding.InjectROT13
+[1m[93mprobes: [0mencoding.InjectSneakyBits 💤
+[1m[93mprobes: [0mencoding.InjectUU
+[1m[93mprobes: [0mencoding.InjectUnicodeTagChars
+[1m[93mprobes: [0mencoding.InjectUnicodeVariantSelectors 💤
+[1m[93mprobes: [0mencoding.InjectZalgo
+[1m[93mprobes: [0mexploitation 🌟
+[1m[93mprobes: [0mexploitation.JinjaTemplatePythonInjection
+[1m[93mprobes: [0mexploitation.SQLInjectionEcho
+[1m[93mprobes: [0mexploitation.SQLInjectionSystem 💤
+[1m[93mprobes: [0mfileformats 🌟
+[1m[93mprobes: [0mfileformats.HF_Files 💤
+[1m[93mprobes: [0mfitd 🌟
+[1m[93mprobes: [0mfitd.FITD 💤
+[1m[93mprobes: [0mglitch 🌟
+[1m[93mprobes: [0mglitch.Glitch 💤
+[1m[93mprobes: [0mglitch.GlitchFull 💤
+[1m[93mprobes: [0mgoodside 🌟
+[1m[93mprobes: [0mgoodside.Davidjl 💤
+[1m[93mprobes: [0mgoodside.Tag
+[1m[93mprobes: [0mgoodside.ThreatenJSON
+[1m[93mprobes: [0mgoodside.WhoIsRiley
+[1m[93mprobes: [0mgrandma 🌟
+[1m[93mprobes: [0mgrandma.Slurs
+[1m[93mprobes: [0mgrandma.Substances
+[1m[93mprobes: [0mgrandma.Win10
+[1m[93mprobes: [0mgrandma.Win11
+[1m[93mprobes: [0mlatentinjection 🌟
+[1m[93mprobes: [0mlatentinjection.LatentInjectionFactSnippetEiffel
+[1m[93mprobes: [0mlatentinjection.LatentInjectionFactSnippetEiffelFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentInjectionFactSnippetLegal
+[1m[93mprobes: [0mlatentinjection.LatentInjectionFactSnippetLegalFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentInjectionReport
+[1m[93mprobes: [0mlatentinjection.LatentInjectionReportFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentInjectionResume
+[1m[93mprobes: [0mlatentinjection.LatentInjectionResumeFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentInjectionTranslationEnFr
+[1m[93mprobes: [0mlatentinjection.LatentInjectionTranslationEnFrFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentInjectionTranslationEnZh
+[1m[93mprobes: [0mlatentinjection.LatentInjectionTranslationEnZhFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentJailbreak
+[1m[93mprobes: [0mlatentinjection.LatentJailbreakFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentWhois
+[1m[93mprobes: [0mlatentinjection.LatentWhoisSnippet
+[1m[93mprobes: [0mlatentinjection.LatentWhoisSnippetFull 💤
+[1m[93mprobes: [0mleakreplay 🌟
+[1m[93mprobes: [0mleakreplay.GuardianCloze
+[1m[93mprobes: [0mleakreplay.GuardianClozeFull 💤
+[1m[93mprobes: [0mleakreplay.GuardianComplete
+[1m[93mprobes: [0mleakreplay.GuardianCompleteFull 💤
+[1m[93mprobes: [0mleakreplay.LiteratureCloze
+[1m[93mprobes: [0mleakreplay.LiteratureClozeFull 💤
+[1m[93mprobes: [0mleakreplay.LiteratureComplete
+[1m[93mprobes: [0mleakreplay.LiteratureCompleteFull 💤
+[1m[93mprobes: [0mleakreplay.NYTCloze
+[1m[93mprobes: [0mleakreplay.NYTClozeFull 💤
+[1m[93mprobes: [0mleakreplay.NYTComplete
+[1m[93mprobes: [0mleakreplay.NYTCompleteFull 💤
+[1m[93mprobes: [0mleakreplay.PotterCloze
+[1m[93mprobes: [0mleakreplay.PotterClozeFull 💤
+[1m[93mprobes: [0mleakreplay.PotterComplete
+[1m[93mprobes: [0mleakreplay.PotterCompleteFull 💤
+[1m[93mprobes: [0mlmrc 🌟
+[1m[93mprobes: [0mlmrc.Anthropomorphisation 💤
+[1m[93mprobes: [0mlmrc.Bullying
+[1m[93mprobes: [0mlmrc.Deadnaming
+[1m[93mprobes: [0mlmrc.Profanity 💤
+[1m[93mprobes: [0mlmrc.QuackMedicine
+[1m[93mprobes: [0mlmrc.SexualContent
+[1m[93mprobes: [0mlmrc.Sexualisation
+[1m[93mprobes: [0mlmrc.SlurUsage
+[1m[93mprobes: [0mmalwaregen 🌟
+[1m[93mprobes: [0mmalwaregen.Evasion
+[1m[93mprobes: [0mmalwaregen.Payload
+[1m[93mprobes: [0mmalwaregen.SubFunctions
+[1m[93mprobes: [0mmalwaregen.TopLevel
+[1m[93mprobes: [0mmisleading 🌟
+[1m[93mprobes: [0mmisleading.FalseAssertion
+[1m[93mprobes: [0mpackagehallucination 🌟
+[1m[93mprobes: [0mpackagehallucination.Dart
+[1m[93mprobes: [0mpackagehallucination.JavaScript
+[1m[93mprobes: [0mpackagehallucination.Perl
+[1m[93mprobes: [0mpackagehallucination.Python
+[1m[93mprobes: [0mpackagehallucination.RakuLand
+[1m[93mprobes: [0mpackagehallucination.Ruby
+[1m[93mprobes: [0mpackagehallucination.Rust
+[1m[93mprobes: [0mphrasing 🌟
+[1m[93mprobes: [0mphrasing.FutureTense
+[1m[93mprobes: [0mphrasing.FutureTenseFull 💤
+[1m[93mprobes: [0mphrasing.PastTense
+[1m[93mprobes: [0mphrasing.PastTenseFull 💤
+[1m[93mprobes: [0mpromptinject 🌟
+[1m[93mprobes: [0mpromptinject.HijackHateHumans
+[1m[93mprobes: [0mpromptinject.HijackHateHumansFull 💤
+[1m[93mprobes: [0mpromptinject.HijackKillHumans
+[1m[93mprobes: [0mpromptinject.HijackKillHumansFull 💤
+[1m[93mprobes: [0mpromptinject.HijackLongPrompt
+[1m[93mprobes: [0mpromptinject.HijackLongPromptFull 💤
+[1m[93mprobes: [0mrealtoxicityprompts 🌟
+[1m[93mprobes: [0mrealtoxicityprompts.RTPBlank
+[1m[93mprobes: [0mrealtoxicityprompts.RTPFlirtation 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPIdentity_Attack 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPInsult 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPProfanity 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPSevere_Toxicity 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPSexually_Explicit 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPThreat 💤
+[1m[93mprobes: [0msata 🌟
+[1m[93mprobes: [0msata.MLM 💤
+[1m[93mprobes: [0msmuggling 🌟
+[1m[93mprobes: [0msmuggling.FunctionMasking 💤
+[1m[93mprobes: [0msmuggling.HypotheticalResponse 💤
+[1m[93mprobes: [0msnowball 🌟
+[1m[93mprobes: [0msnowball.GraphConnectivity
+[1m[93mprobes: [0msnowball.GraphConnectivityFull 💤
+[1m[93mprobes: [0msnowball.Primes 💤
+[1m[93mprobes: [0msnowball.PrimesFull 💤
+[1m[93mprobes: [0msnowball.Senators 💤
+[1m[93mprobes: [0msnowball.SenatorsFull 💤
+[1m[93mprobes: [0msuffix 🌟
+[1m[93mprobes: [0msuffix.BEAST 💤
+[1m[93mprobes: [0msuffix.GCG 💤
+[1m[93mprobes: [0msuffix.GCGCached
+[1m[93mprobes: [0mtap 🌟
+[1m[93mprobes: [0mtap.PAIR 💤
+[1m[93mprobes: [0mtap.TAP 💤
+[1m[93mprobes: [0mtap.TAPCached
+[1m[93mprobes: [0mtest 🌟
+[1m[93mprobes: [0mtest.Blank 💤
+[1m[93mprobes: [0mtest.Test 💤
+[1m[93mprobes: [0mtopic 🌟
+[1m[93mprobes: [0mtopic.WordnetAllowedWords 💤
+[1m[93mprobes: [0mtopic.WordnetBlockedWords 💤
+[1m[93mprobes: [0mtopic.WordnetControversial
+[1m[93mprobes: [0mvisual_jailbreak 🌟
+[1m[93mprobes: [0mvisual_jailbreak.FigStep 💤
+[1m[93mprobes: [0mvisual_jailbreak.FigStepFull 💤
+[1m[93mprobes: [0mweb_injection 🌟
+[1m[93mprobes: [0mweb_injection.ColabAIDataLeakage
+[1m[93mprobes: [0mweb_injection.MarkdownImageExfil
+[1m[93mprobes: [0mweb_injection.MarkdownURIImageExfilExtended
+[1m[93mprobes: [0mweb_injection.MarkdownURINonImageExfilExtended
+[1m[93mprobes: [0mweb_injection.MarkdownXSS
+[1m[93mprobes: [0mweb_injection.PlaygroundMarkdownExfil
+[1m[93mprobes: [0mweb_injection.StringAssemblyDataExfil
+[1m[93mprobes: [0mweb_injection.TaskXSS
+
+2026-01-22 22:03:45,343 - adapters.garak - ERROR - Garak stderr: 
+2026-01-22 22:03:45,343 - adapters.garak - INFO - Garak return code: 0
+2026-01-22 22:03:45,343 - adapters.garak - INFO - Line clean: 'garak LLM vulnerability scanner v0.13.3 ( https://github.com/NVIDIA/garak ) at 2026-01-22T22:03:45.146150'
+2026-01-22 22:03:45,343 - adapters.garak - INFO - Line clean: 'probes: ansiescape 🌟'
+2026-01-22 22:03:45,343 - adapters.garak - INFO - Line clean: 'probes: ansiescape.AnsiEscaped'
+2026-01-22 22:03:45,343 - adapters.garak - INFO - Line clean: 'probes: ansiescape.AnsiRaw'
+2026-01-22 22:03:45,343 - adapters.garak - INFO - Line clean: 'probes: ansiescape.AnsiRawTokenizerHF 💤'
+2026-01-22 22:03:45,344 - adapters.garak - INFO - Parsed 218 probes.
+INFO:     10.4.7.201:41246 - "GET /api/v1/garak/probes HTTP/1.1" 200 OK
+INFO:     10.4.7.201:41246 - "GET /api/v1/dashboard/summary HTTP/1.1" 200 OK
+INFO:     10.4.7.201:41254 - "GET /api/v1/dashboard/scans?limit=10 HTTP/1.1" 200 OK
+2026-01-22 22:03:51,319 - adapters.garak - INFO - Fetching HF models from: https://huggingface.co/api/models?pipeline_tag=text-generation&limit=50
+2026-01-22 22:03:51,587 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models?pipeline_tag=text-generation&limit=50 "HTTP/1.1 200 OK"
+INFO:     10.4.7.201:41268 - "GET /api/v1/garak/models?limit=50 HTTP/1.1" 200 OK
+2026-01-22 22:03:51,889 - adapters.garak - INFO - Garak stdout: garak LLM vulnerability scanner v0.13.3 ( https://github.com/NVIDIA/garak ) at 2026-01-22T22:03:51.674426
+[1m[93mprobes: [0mansiescape 🌟
+[1m[93mprobes: [0mansiescape.AnsiEscaped
+[1m[93mprobes: [0mansiescape.AnsiRaw
+[1m[93mprobes: [0mansiescape.AnsiRawTokenizerHF 💤
+[1m[93mprobes: [0mapikey 🌟
+[1m[93mprobes: [0mapikey.CompleteKey
+[1m[93mprobes: [0mapikey.GetKey
+[1m[93mprobes: [0matkgen 🌟
+[1m[93mprobes: [0matkgen.Tox
+[1m[93mprobes: [0maudio 🌟
+[1m[93mprobes: [0maudio.AudioAchillesHeel 💤
+[1m[93mprobes: [0mav_spam_scanning 🌟
+[1m[93mprobes: [0mav_spam_scanning.EICAR 💤
+[1m[93mprobes: [0mav_spam_scanning.GTUBE 💤
+[1m[93mprobes: [0mav_spam_scanning.GTphish 💤
+[1m[93mprobes: [0mbadchars 🌟
+[1m[93mprobes: [0mbadchars.BadCharacters 💤
+[1m[93mprobes: [0mcontinuation 🌟
+[1m[93mprobes: [0mcontinuation.ContinueSlursReclaimedSlurs
+[1m[93mprobes: [0mcontinuation.ContinueSlursReclaimedSlursFull 💤
+[1m[93mprobes: [0mdan 🌟
+[1m[93mprobes: [0mdan.Ablation_Dan_11_0
+[1m[93mprobes: [0mdan.AntiDAN 💤
+[1m[93mprobes: [0mdan.AutoDAN 💤
+[1m[93mprobes: [0mdan.AutoDANCached
+[1m[93mprobes: [0mdan.ChatGPT_Developer_Mode_RANTI 💤
+[1m[93mprobes: [0mdan.ChatGPT_Developer_Mode_v2 💤
+[1m[93mprobes: [0mdan.ChatGPT_Image_Markdown 💤
+[1m[93mprobes: [0mdan.DAN_Jailbreak 💤
+[1m[93mprobes: [0mdan.DUDE 💤
+[1m[93mprobes: [0mdan.DanInTheWild
+[1m[93mprobes: [0mdan.DanInTheWildFull 💤
+[1m[93mprobes: [0mdan.Dan_10_0 💤
+[1m[93mprobes: [0mdan.Dan_11_0 💤
+[1m[93mprobes: [0mdan.Dan_6_0 💤
+[1m[93mprobes: [0mdan.Dan_6_2 💤
+[1m[93mprobes: [0mdan.Dan_7_0 💤
+[1m[93mprobes: [0mdan.Dan_8_0 💤
+[1m[93mprobes: [0mdan.Dan_9_0 💤
+[1m[93mprobes: [0mdan.STAN 💤
+[1m[93mprobes: [0mdivergence 🌟
+[1m[93mprobes: [0mdivergence.Repeat
+[1m[93mprobes: [0mdivergence.RepeatExtended 💤
+[1m[93mprobes: [0mdivergence.RepeatedToken
+[1m[93mprobes: [0mdoctor 🌟
+[1m[93mprobes: [0mdoctor.Bypass 💤
+[1m[93mprobes: [0mdoctor.BypassLeet 💤
+[1m[93mprobes: [0mdoctor.Puppetry 💤
+[1m[93mprobes: [0mdonotanswer 🌟
+[1m[93mprobes: [0mdonotanswer.DiscriminationExclusionToxicityHatefulOffensive 💤
+[1m[93mprobes: [0mdonotanswer.HumanChatbox 💤
+[1m[93mprobes: [0mdonotanswer.InformationHazard 💤
+[1m[93mprobes: [0mdonotanswer.MaliciousUses 💤
+[1m[93mprobes: [0mdonotanswer.MisinformationHarms 💤
+[1m[93mprobes: [0mdra 🌟
+[1m[93mprobes: [0mdra.DRA
+[1m[93mprobes: [0mdra.DRAAdvanced 💤
+[1m[93mprobes: [0mencoding 🌟
+[1m[93mprobes: [0mencoding.InjectAscii85
+[1m[93mprobes: [0mencoding.InjectAtbash
+[1m[93mprobes: [0mencoding.InjectBase16
+[1m[93mprobes: [0mencoding.InjectBase2048
+[1m[93mprobes: [0mencoding.InjectBase32
+[1m[93mprobes: [0mencoding.InjectBase64
+[1m[93mprobes: [0mencoding.InjectBraille
+[1m[93mprobes: [0mencoding.InjectEcoji
+[1m[93mprobes: [0mencoding.InjectHex
+[1m[93mprobes: [0mencoding.InjectLeet 💤
+[1m[93mprobes: [0mencoding.InjectMime 💤
+[1m[93mprobes: [0mencoding.InjectMorse
+[1m[93mprobes: [0mencoding.InjectNato
+[1m[93mprobes: [0mencoding.InjectQP 💤
+[1m[93mprobes: [0mencoding.InjectROT13
+[1m[93mprobes: [0mencoding.InjectSneakyBits 💤
+[1m[93mprobes: [0mencoding.InjectUU
+[1m[93mprobes: [0mencoding.InjectUnicodeTagChars
+[1m[93mprobes: [0mencoding.InjectUnicodeVariantSelectors 💤
+[1m[93mprobes: [0mencoding.InjectZalgo
+[1m[93mprobes: [0mexploitation 🌟
+[1m[93mprobes: [0mexploitation.JinjaTemplatePythonInjection
+[1m[93mprobes: [0mexploitation.SQLInjectionEcho
+[1m[93mprobes: [0mexploitation.SQLInjectionSystem 💤
+[1m[93mprobes: [0mfileformats 🌟
+[1m[93mprobes: [0mfileformats.HF_Files 💤
+[1m[93mprobes: [0mfitd 🌟
+[1m[93mprobes: [0mfitd.FITD 💤
+[1m[93mprobes: [0mglitch 🌟
+[1m[93mprobes: [0mglitch.Glitch 💤
+[1m[93mprobes: [0mglitch.GlitchFull 💤
+[1m[93mprobes: [0mgoodside 🌟
+[1m[93mprobes: [0mgoodside.Davidjl 💤
+[1m[93mprobes: [0mgoodside.Tag
+[1m[93mprobes: [0mgoodside.ThreatenJSON
+[1m[93mprobes: [0mgoodside.WhoIsRiley
+[1m[93mprobes: [0mgrandma 🌟
+[1m[93mprobes: [0mgrandma.Slurs
+[1m[93mprobes: [0mgrandma.Substances
+[1m[93mprobes: [0mgrandma.Win10
+[1m[93mprobes: [0mgrandma.Win11
+[1m[93mprobes: [0mlatentinjection 🌟
+[1m[93mprobes: [0mlatentinjection.LatentInjectionFactSnippetEiffel
+[1m[93mprobes: [0mlatentinjection.LatentInjectionFactSnippetEiffelFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentInjectionFactSnippetLegal
+[1m[93mprobes: [0mlatentinjection.LatentInjectionFactSnippetLegalFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentInjectionReport
+[1m[93mprobes: [0mlatentinjection.LatentInjectionReportFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentInjectionResume
+[1m[93mprobes: [0mlatentinjection.LatentInjectionResumeFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentInjectionTranslationEnFr
+[1m[93mprobes: [0mlatentinjection.LatentInjectionTranslationEnFrFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentInjectionTranslationEnZh
+[1m[93mprobes: [0mlatentinjection.LatentInjectionTranslationEnZhFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentJailbreak
+[1m[93mprobes: [0mlatentinjection.LatentJailbreakFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentWhois
+[1m[93mprobes: [0mlatentinjection.LatentWhoisSnippet
+[1m[93mprobes: [0mlatentinjection.LatentWhoisSnippetFull 💤
+[1m[93mprobes: [0mleakreplay 🌟
+[1m[93mprobes: [0mleakreplay.GuardianCloze
+[1m[93mprobes: [0mleakreplay.GuardianClozeFull 💤
+[1m[93mprobes: [0mleakreplay.GuardianComplete
+[1m[93mprobes: [0mleakreplay.GuardianCompleteFull 💤
+[1m[93mprobes: [0mleakreplay.LiteratureCloze
+[1m[93mprobes: [0mleakreplay.LiteratureClozeFull 💤
+[1m[93mprobes: [0mleakreplay.LiteratureComplete
+[1m[93mprobes: [0mleakreplay.LiteratureCompleteFull 💤
+[1m[93mprobes: [0mleakreplay.NYTCloze
+[1m[93mprobes: [0mleakreplay.NYTClozeFull 💤
+[1m[93mprobes: [0mleakreplay.NYTComplete
+[1m[93mprobes: [0mleakreplay.NYTCompleteFull 💤
+[1m[93mprobes: [0mleakreplay.PotterCloze
+[1m[93mprobes: [0mleakreplay.PotterClozeFull 💤
+[1m[93mprobes: [0mleakreplay.PotterComplete
+[1m[93mprobes: [0mleakreplay.PotterCompleteFull 💤
+[1m[93mprobes: [0mlmrc 🌟
+[1m[93mprobes: [0mlmrc.Anthropomorphisation 💤
+[1m[93mprobes: [0mlmrc.Bullying
+[1m[93mprobes: [0mlmrc.Deadnaming
+[1m[93mprobes: [0mlmrc.Profanity 💤
+[1m[93mprobes: [0mlmrc.QuackMedicine
+[1m[93mprobes: [0mlmrc.SexualContent
+[1m[93mprobes: [0mlmrc.Sexualisation
+[1m[93mprobes: [0mlmrc.SlurUsage
+[1m[93mprobes: [0mmalwaregen 🌟
+[1m[93mprobes: [0mmalwaregen.Evasion
+[1m[93mprobes: [0mmalwaregen.Payload
+[1m[93mprobes: [0mmalwaregen.SubFunctions
+[1m[93mprobes: [0mmalwaregen.TopLevel
+[1m[93mprobes: [0mmisleading 🌟
+[1m[93mprobes: [0mmisleading.FalseAssertion
+[1m[93mprobes: [0mpackagehallucination 🌟
+[1m[93mprobes: [0mpackagehallucination.Dart
+[1m[93mprobes: [0mpackagehallucination.JavaScript
+[1m[93mprobes: [0mpackagehallucination.Perl
+[1m[93mprobes: [0mpackagehallucination.Python
+[1m[93mprobes: [0mpackagehallucination.RakuLand
+[1m[93mprobes: [0mpackagehallucination.Ruby
+[1m[93mprobes: [0mpackagehallucination.Rust
+[1m[93mprobes: [0mphrasing 🌟
+[1m[93mprobes: [0mphrasing.FutureTense
+[1m[93mprobes: [0mphrasing.FutureTenseFull 💤
+[1m[93mprobes: [0mphrasing.PastTense
+[1m[93mprobes: [0mphrasing.PastTenseFull 💤
+[1m[93mprobes: [0mpromptinject 🌟
+[1m[93mprobes: [0mpromptinject.HijackHateHumans
+[1m[93mprobes: [0mpromptinject.HijackHateHumansFull 💤
+[1m[93mprobes: [0mpromptinject.HijackKillHumans
+[1m[93mprobes: [0mpromptinject.HijackKillHumansFull 💤
+[1m[93mprobes: [0mpromptinject.HijackLongPrompt
+[1m[93mprobes: [0mpromptinject.HijackLongPromptFull 💤
+[1m[93mprobes: [0mrealtoxicityprompts 🌟
+[1m[93mprobes: [0mrealtoxicityprompts.RTPBlank
+[1m[93mprobes: [0mrealtoxicityprompts.RTPFlirtation 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPIdentity_Attack 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPInsult 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPProfanity 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPSevere_Toxicity 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPSexually_Explicit 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPThreat 💤
+[1m[93mprobes: [0msata 🌟
+[1m[93mprobes: [0msata.MLM 💤
+[1m[93mprobes: [0msmuggling 🌟
+[1m[93mprobes: [0msmuggling.FunctionMasking 💤
+[1m[93mprobes: [0msmuggling.HypotheticalResponse 💤
+[1m[93mprobes: [0msnowball 🌟
+[1m[93mprobes: [0msnowball.GraphConnectivity
+[1m[93mprobes: [0msnowball.GraphConnectivityFull 💤
+[1m[93mprobes: [0msnowball.Primes 💤
+[1m[93mprobes: [0msnowball.PrimesFull 💤
+[1m[93mprobes: [0msnowball.Senators 💤
+[1m[93mprobes: [0msnowball.SenatorsFull 💤
+[1m[93mprobes: [0msuffix 🌟
+[1m[93mprobes: [0msuffix.BEAST 💤
+[1m[93mprobes: [0msuffix.GCG 💤
+[1m[93mprobes: [0msuffix.GCGCached
+[1m[93mprobes: [0mtap 🌟
+[1m[93mprobes: [0mtap.PAIR 💤
+[1m[93mprobes: [0mtap.TAP 💤
+[1m[93mprobes: [0mtap.TAPCached
+[1m[93mprobes: [0mtest 🌟
+[1m[93mprobes: [0mtest.Blank 💤
+[1m[93mprobes: [0mtest.Test 💤
+[1m[93mprobes: [0mtopic 🌟
+[1m[93mprobes: [0mtopic.WordnetAllowedWords 💤
+[1m[93mprobes: [0mtopic.WordnetBlockedWords 💤
+[1m[93mprobes: [0mtopic.WordnetControversial
+[1m[93mprobes: [0mvisual_jailbreak 🌟
+[1m[93mprobes: [0mvisual_jailbreak.FigStep 💤
+[1m[93mprobes: [0mvisual_jailbreak.FigStepFull 💤
+[1m[93mprobes: [0mweb_injection 🌟
+[1m[93mprobes: [0mweb_injection.ColabAIDataLeakage
+[1m[93mprobes: [0mweb_injection.MarkdownImageExfil
+[1m[93mprobes: [0mweb_injection.MarkdownURIImageExfilExtended
+[1m[93mprobes: [0mweb_injection.MarkdownURINonImageExfilExtended
+[1m[93mprobes: [0mweb_injection.MarkdownXSS
+[1m[93mprobes: [0mweb_injection.PlaygroundMarkdownExfil
+[1m[93mprobes: [0mweb_injection.StringAssemblyDataExfil
+[1m[93mprobes: [0mweb_injection.TaskXSS
+
+2026-01-22 22:03:51,889 - adapters.garak - ERROR - Garak stderr: 
+2026-01-22 22:03:51,889 - adapters.garak - INFO - Garak return code: 0
+2026-01-22 22:03:51,889 - adapters.garak - INFO - Line clean: 'garak LLM vulnerability scanner v0.13.3 ( https://github.com/NVIDIA/garak ) at 2026-01-22T22:03:51.674426'
+2026-01-22 22:03:51,889 - adapters.garak - INFO - Line clean: 'probes: ansiescape 🌟'
+2026-01-22 22:03:51,889 - adapters.garak - INFO - Line clean: 'probes: ansiescape.AnsiEscaped'
+2026-01-22 22:03:51,889 - adapters.garak - INFO - Line clean: 'probes: ansiescape.AnsiRaw'
+2026-01-22 22:03:51,889 - adapters.garak - INFO - Line clean: 'probes: ansiescape.AnsiRawTokenizerHF 💤'
+2026-01-22 22:03:51,889 - adapters.garak - INFO - Parsed 218 probes.
+INFO:     10.4.7.201:41268 - "GET /api/v1/garak/probes HTTP/1.1" 200 OK
+2026-01-22 22:05:47,345 - adapters.garak - INFO - Fetching HF models from: https://huggingface.co/api/models?pipeline_tag=text-generation&limit=50
+2026-01-22 22:05:47,633 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models?pipeline_tag=text-generation&limit=50 "HTTP/1.1 200 OK"
+INFO:     10.4.7.201:46244 - "GET /api/v1/garak/models?limit=50 HTTP/1.1" 200 OK
+2026-01-22 22:05:47,897 - adapters.garak - INFO - Garak stdout: garak LLM vulnerability scanner v0.13.3 ( https://github.com/NVIDIA/garak ) at 2026-01-22T22:05:47.692772
+[1m[93mprobes: [0mansiescape 🌟
+[1m[93mprobes: [0mansiescape.AnsiEscaped
+[1m[93mprobes: [0mansiescape.AnsiRaw
+[1m[93mprobes: [0mansiescape.AnsiRawTokenizerHF 💤
+[1m[93mprobes: [0mapikey 🌟
+[1m[93mprobes: [0mapikey.CompleteKey
+[1m[93mprobes: [0mapikey.GetKey
+[1m[93mprobes: [0matkgen 🌟
+[1m[93mprobes: [0matkgen.Tox
+[1m[93mprobes: [0maudio 🌟
+[1m[93mprobes: [0maudio.AudioAchillesHeel 💤
+[1m[93mprobes: [0mav_spam_scanning 🌟
+[1m[93mprobes: [0mav_spam_scanning.EICAR 💤
+[1m[93mprobes: [0mav_spam_scanning.GTUBE 💤
+[1m[93mprobes: [0mav_spam_scanning.GTphish 💤
+[1m[93mprobes: [0mbadchars 🌟
+[1m[93mprobes: [0mbadchars.BadCharacters 💤
+[1m[93mprobes: [0mcontinuation 🌟
+[1m[93mprobes: [0mcontinuation.ContinueSlursReclaimedSlurs
+[1m[93mprobes: [0mcontinuation.ContinueSlursReclaimedSlursFull 💤
+[1m[93mprobes: [0mdan 🌟
+[1m[93mprobes: [0mdan.Ablation_Dan_11_0
+[1m[93mprobes: [0mdan.AntiDAN 💤
+[1m[93mprobes: [0mdan.AutoDAN 💤
+[1m[93mprobes: [0mdan.AutoDANCached
+[1m[93mprobes: [0mdan.ChatGPT_Developer_Mode_RANTI 💤
+[1m[93mprobes: [0mdan.ChatGPT_Developer_Mode_v2 💤
+[1m[93mprobes: [0mdan.ChatGPT_Image_Markdown 💤
+[1m[93mprobes: [0mdan.DAN_Jailbreak 💤
+[1m[93mprobes: [0mdan.DUDE 💤
+[1m[93mprobes: [0mdan.DanInTheWild
+[1m[93mprobes: [0mdan.DanInTheWildFull 💤
+[1m[93mprobes: [0mdan.Dan_10_0 💤
+[1m[93mprobes: [0mdan.Dan_11_0 💤
+[1m[93mprobes: [0mdan.Dan_6_0 💤
+[1m[93mprobes: [0mdan.Dan_6_2 💤
+[1m[93mprobes: [0mdan.Dan_7_0 💤
+[1m[93mprobes: [0mdan.Dan_8_0 💤
+[1m[93mprobes: [0mdan.Dan_9_0 💤
+[1m[93mprobes: [0mdan.STAN 💤
+[1m[93mprobes: [0mdivergence 🌟
+[1m[93mprobes: [0mdivergence.Repeat
+[1m[93mprobes: [0mdivergence.RepeatExtended 💤
+[1m[93mprobes: [0mdivergence.RepeatedToken
+[1m[93mprobes: [0mdoctor 🌟
+[1m[93mprobes: [0mdoctor.Bypass 💤
+[1m[93mprobes: [0mdoctor.BypassLeet 💤
+[1m[93mprobes: [0mdoctor.Puppetry 💤
+[1m[93mprobes: [0mdonotanswer 🌟
+[1m[93mprobes: [0mdonotanswer.DiscriminationExclusionToxicityHatefulOffensive 💤
+[1m[93mprobes: [0mdonotanswer.HumanChatbox 💤
+[1m[93mprobes: [0mdonotanswer.InformationHazard 💤
+[1m[93mprobes: [0mdonotanswer.MaliciousUses 💤
+[1m[93mprobes: [0mdonotanswer.MisinformationHarms 💤
+[1m[93mprobes: [0mdra 🌟
+[1m[93mprobes: [0mdra.DRA
+[1m[93mprobes: [0mdra.DRAAdvanced 💤
+[1m[93mprobes: [0mencoding 🌟
+[1m[93mprobes: [0mencoding.InjectAscii85
+[1m[93mprobes: [0mencoding.InjectAtbash
+[1m[93mprobes: [0mencoding.InjectBase16
+[1m[93mprobes: [0mencoding.InjectBase2048
+[1m[93mprobes: [0mencoding.InjectBase32
+[1m[93mprobes: [0mencoding.InjectBase64
+[1m[93mprobes: [0mencoding.InjectBraille
+[1m[93mprobes: [0mencoding.InjectEcoji
+[1m[93mprobes: [0mencoding.InjectHex
+[1m[93mprobes: [0mencoding.InjectLeet 💤
+[1m[93mprobes: [0mencoding.InjectMime 💤
+[1m[93mprobes: [0mencoding.InjectMorse
+[1m[93mprobes: [0mencoding.InjectNato
+[1m[93mprobes: [0mencoding.InjectQP 💤
+[1m[93mprobes: [0mencoding.InjectROT13
+[1m[93mprobes: [0mencoding.InjectSneakyBits 💤
+[1m[93mprobes: [0mencoding.InjectUU
+[1m[93mprobes: [0mencoding.InjectUnicodeTagChars
+[1m[93mprobes: [0mencoding.InjectUnicodeVariantSelectors 💤
+[1m[93mprobes: [0mencoding.InjectZalgo
+[1m[93mprobes: [0mexploitation 🌟
+[1m[93mprobes: [0mexploitation.JinjaTemplatePythonInjection
+[1m[93mprobes: [0mexploitation.SQLInjectionEcho
+[1m[93mprobes: [0mexploitation.SQLInjectionSystem 💤
+[1m[93mprobes: [0mfileformats 🌟
+[1m[93mprobes: [0mfileformats.HF_Files 💤
+[1m[93mprobes: [0mfitd 🌟
+[1m[93mprobes: [0mfitd.FITD 💤
+[1m[93mprobes: [0mglitch 🌟
+[1m[93mprobes: [0mglitch.Glitch 💤
+[1m[93mprobes: [0mglitch.GlitchFull 💤
+[1m[93mprobes: [0mgoodside 🌟
+[1m[93mprobes: [0mgoodside.Davidjl 💤
+[1m[93mprobes: [0mgoodside.Tag
+[1m[93mprobes: [0mgoodside.ThreatenJSON
+[1m[93mprobes: [0mgoodside.WhoIsRiley
+[1m[93mprobes: [0mgrandma 🌟
+[1m[93mprobes: [0mgrandma.Slurs
+[1m[93mprobes: [0mgrandma.Substances
+[1m[93mprobes: [0mgrandma.Win10
+[1m[93mprobes: [0mgrandma.Win11
+[1m[93mprobes: [0mlatentinjection 🌟
+[1m[93mprobes: [0mlatentinjection.LatentInjectionFactSnippetEiffel
+[1m[93mprobes: [0mlatentinjection.LatentInjectionFactSnippetEiffelFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentInjectionFactSnippetLegal
+[1m[93mprobes: [0mlatentinjection.LatentInjectionFactSnippetLegalFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentInjectionReport
+[1m[93mprobes: [0mlatentinjection.LatentInjectionReportFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentInjectionResume
+[1m[93mprobes: [0mlatentinjection.LatentInjectionResumeFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentInjectionTranslationEnFr
+[1m[93mprobes: [0mlatentinjection.LatentInjectionTranslationEnFrFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentInjectionTranslationEnZh
+[1m[93mprobes: [0mlatentinjection.LatentInjectionTranslationEnZhFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentJailbreak
+[1m[93mprobes: [0mlatentinjection.LatentJailbreakFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentWhois
+[1m[93mprobes: [0mlatentinjection.LatentWhoisSnippet
+[1m[93mprobes: [0mlatentinjection.LatentWhoisSnippetFull 💤
+[1m[93mprobes: [0mleakreplay 🌟
+[1m[93mprobes: [0mleakreplay.GuardianCloze
+[1m[93mprobes: [0mleakreplay.GuardianClozeFull 💤
+[1m[93mprobes: [0mleakreplay.GuardianComplete
+[1m[93mprobes: [0mleakreplay.GuardianCompleteFull 💤
+[1m[93mprobes: [0mleakreplay.LiteratureCloze
+[1m[93mprobes: [0mleakreplay.LiteratureClozeFull 💤
+[1m[93mprobes: [0mleakreplay.LiteratureComplete
+[1m[93mprobes: [0mleakreplay.LiteratureCompleteFull 💤
+[1m[93mprobes: [0mleakreplay.NYTCloze
+[1m[93mprobes: [0mleakreplay.NYTClozeFull 💤
+[1m[93mprobes: [0mleakreplay.NYTComplete
+[1m[93mprobes: [0mleakreplay.NYTCompleteFull 💤
+[1m[93mprobes: [0mleakreplay.PotterCloze
+[1m[93mprobes: [0mleakreplay.PotterClozeFull 💤
+[1m[93mprobes: [0mleakreplay.PotterComplete
+[1m[93mprobes: [0mleakreplay.PotterCompleteFull 💤
+[1m[93mprobes: [0mlmrc 🌟
+[1m[93mprobes: [0mlmrc.Anthropomorphisation 💤
+[1m[93mprobes: [0mlmrc.Bullying
+[1m[93mprobes: [0mlmrc.Deadnaming
+[1m[93mprobes: [0mlmrc.Profanity 💤
+[1m[93mprobes: [0mlmrc.QuackMedicine
+[1m[93mprobes: [0mlmrc.SexualContent
+[1m[93mprobes: [0mlmrc.Sexualisation
+[1m[93mprobes: [0mlmrc.SlurUsage
+[1m[93mprobes: [0mmalwaregen 🌟
+[1m[93mprobes: [0mmalwaregen.Evasion
+[1m[93mprobes: [0mmalwaregen.Payload
+[1m[93mprobes: [0mmalwaregen.SubFunctions
+[1m[93mprobes: [0mmalwaregen.TopLevel
+[1m[93mprobes: [0mmisleading 🌟
+[1m[93mprobes: [0mmisleading.FalseAssertion
+[1m[93mprobes: [0mpackagehallucination 🌟
+[1m[93mprobes: [0mpackagehallucination.Dart
+[1m[93mprobes: [0mpackagehallucination.JavaScript
+[1m[93mprobes: [0mpackagehallucination.Perl
+[1m[93mprobes: [0mpackagehallucination.Python
+[1m[93mprobes: [0mpackagehallucination.RakuLand
+[1m[93mprobes: [0mpackagehallucination.Ruby
+[1m[93mprobes: [0mpackagehallucination.Rust
+[1m[93mprobes: [0mphrasing 🌟
+[1m[93mprobes: [0mphrasing.FutureTense
+[1m[93mprobes: [0mphrasing.FutureTenseFull 💤
+[1m[93mprobes: [0mphrasing.PastTense
+[1m[93mprobes: [0mphrasing.PastTenseFull 💤
+[1m[93mprobes: [0mpromptinject 🌟
+[1m[93mprobes: [0mpromptinject.HijackHateHumans
+[1m[93mprobes: [0mpromptinject.HijackHateHumansFull 💤
+[1m[93mprobes: [0mpromptinject.HijackKillHumans
+[1m[93mprobes: [0mpromptinject.HijackKillHumansFull 💤
+[1m[93mprobes: [0mpromptinject.HijackLongPrompt
+[1m[93mprobes: [0mpromptinject.HijackLongPromptFull 💤
+[1m[93mprobes: [0mrealtoxicityprompts 🌟
+[1m[93mprobes: [0mrealtoxicityprompts.RTPBlank
+[1m[93mprobes: [0mrealtoxicityprompts.RTPFlirtation 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPIdentity_Attack 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPInsult 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPProfanity 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPSevere_Toxicity 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPSexually_Explicit 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPThreat 💤
+[1m[93mprobes: [0msata 🌟
+[1m[93mprobes: [0msata.MLM 💤
+[1m[93mprobes: [0msmuggling 🌟
+[1m[93mprobes: [0msmuggling.FunctionMasking 💤
+[1m[93mprobes: [0msmuggling.HypotheticalResponse 💤
+[1m[93mprobes: [0msnowball 🌟
+[1m[93mprobes: [0msnowball.GraphConnectivity
+[1m[93mprobes: [0msnowball.GraphConnectivityFull 💤
+[1m[93mprobes: [0msnowball.Primes 💤
+[1m[93mprobes: [0msnowball.PrimesFull 💤
+[1m[93mprobes: [0msnowball.Senators 💤
+[1m[93mprobes: [0msnowball.SenatorsFull 💤
+[1m[93mprobes: [0msuffix 🌟
+[1m[93mprobes: [0msuffix.BEAST 💤
+[1m[93mprobes: [0msuffix.GCG 💤
+[1m[93mprobes: [0msuffix.GCGCached
+[1m[93mprobes: [0mtap 🌟
+[1m[93mprobes: [0mtap.PAIR 💤
+[1m[93mprobes: [0mtap.TAP 💤
+[1m[93mprobes: [0mtap.TAPCached
+[1m[93mprobes: [0mtest 🌟
+[1m[93mprobes: [0mtest.Blank 💤
+[1m[93mprobes: [0mtest.Test 💤
+[1m[93mprobes: [0mtopic 🌟
+[1m[93mprobes: [0mtopic.WordnetAllowedWords 💤
+[1m[93mprobes: [0mtopic.WordnetBlockedWords 💤
+[1m[93mprobes: [0mtopic.WordnetControversial
+[1m[93mprobes: [0mvisual_jailbreak 🌟
+[1m[93mprobes: [0mvisual_jailbreak.FigStep 💤
+[1m[93mprobes: [0mvisual_jailbreak.FigStepFull 💤
+[1m[93mprobes: [0mweb_injection 🌟
+[1m[93mprobes: [0mweb_injection.ColabAIDataLeakage
+[1m[93mprobes: [0mweb_injection.MarkdownImageExfil
+[1m[93mprobes: [0mweb_injection.MarkdownURIImageExfilExtended
+[1m[93mprobes: [0mweb_injection.MarkdownURINonImageExfilExtended
+[1m[93mprobes: [0mweb_injection.MarkdownXSS
+[1m[93mprobes: [0mweb_injection.PlaygroundMarkdownExfil
+[1m[93mprobes: [0mweb_injection.StringAssemblyDataExfil
+[1m[93mprobes: [0mweb_injection.TaskXSS
+
+2026-01-22 22:05:47,897 - adapters.garak - ERROR - Garak stderr: 
+2026-01-22 22:05:47,897 - adapters.garak - INFO - Garak return code: 0
+2026-01-22 22:05:47,897 - adapters.garak - INFO - Line clean: 'garak LLM vulnerability scanner v0.13.3 ( https://github.com/NVIDIA/garak ) at 2026-01-22T22:05:47.692772'
+2026-01-22 22:05:47,897 - adapters.garak - INFO - Line clean: 'probes: ansiescape 🌟'
+2026-01-22 22:05:47,897 - adapters.garak - INFO - Line clean: 'probes: ansiescape.AnsiEscaped'
+2026-01-22 22:05:47,897 - adapters.garak - INFO - Line clean: 'probes: ansiescape.AnsiRaw'
+2026-01-22 22:05:47,897 - adapters.garak - INFO - Line clean: 'probes: ansiescape.AnsiRawTokenizerHF 💤'
+2026-01-22 22:05:47,897 - adapters.garak - INFO - Parsed 218 probes.
+INFO:     10.4.7.201:46244 - "GET /api/v1/garak/probes HTTP/1.1" 200 OK
+2026-01-22 22:05:58,373 - httpx - INFO - HTTP Request: POST http://localhost:8001/api/v1/upload "HTTP/1.1 200 OK"
+INFO:     10.4.7.201:56594 - "POST /api/v1/mobsf/scan HTTP/1.1" 202 Accepted
+INFO:     10.4.7.201:56594 - "GET /api/v1/mobsf/findings/82ab8b21-93b3-cfb1-c737-e3a786be363a HTTP/1.1" 200 OK
+INFO:     10.4.7.201:56608 - "GET /api/v1/mobsf/status/82ab8b21-93b3-cfb1-c737-e3a786be363a HTTP/1.1" 200 OK
+2026-01-22 22:06:09,877 - httpx - INFO - HTTP Request: POST http://localhost:8001/api/v1/scan "HTTP/1.1 200 OK"
+INFO:     10.4.7.201:44038 - "GET /api/v1/dashboard/summary HTTP/1.1" 200 OK
+INFO:     10.4.7.201:44052 - "GET /api/v1/dashboard/scans?limit=10 HTTP/1.1" 200 OK
+INFO:     10.4.7.201:44066 - "GET /api/v1/dashboard/scans?limit=100 HTTP/1.1" 200 OK
+INFO:     10.4.7.201:44076 - "GET /api/v1/dashboard/vulnerabilities HTTP/1.1" 200 OK
+INFO:     10.4.7.201:53524 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.4.7.201:53524 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     10.4.7.201:56524 - "GET /api/v1/dashboard/summary HTTP/1.1" 200 OK
+INFO:     10.4.7.201:56538 - "GET /api/v1/dashboard/scans?limit=10 HTTP/1.1" 200 OK
+INFO:     10.4.7.201:56546 - "GET /api/v1/dashboard/scans?limit=100 HTTP/1.1" 200 OK
+INFO:     10.4.7.201:56560 - "GET /api/v1/dashboard/vulnerabilities HTTP/1.1" 200 OK
+2026-01-22 22:13:54,455 - adapters.garak - INFO - Fetching HF models from: https://huggingface.co/api/models?pipeline_tag=text-generation&limit=50
+2026-01-22 22:13:54,716 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models?pipeline_tag=text-generation&limit=50 "HTTP/1.1 200 OK"
+INFO:     10.4.7.201:36518 - "GET /api/v1/garak/models?limit=50 HTTP/1.1" 200 OK
+2026-01-22 22:13:54,971 - adapters.garak - INFO - Garak stdout: garak LLM vulnerability scanner v0.13.3 ( https://github.com/NVIDIA/garak ) at 2026-01-22T22:13:54.771617
+[1m[93mprobes: [0mansiescape 🌟
+[1m[93mprobes: [0mansiescape.AnsiEscaped
+[1m[93mprobes: [0mansiescape.AnsiRaw
+[1m[93mprobes: [0mansiescape.AnsiRawTokenizerHF 💤
+[1m[93mprobes: [0mapikey 🌟
+[1m[93mprobes: [0mapikey.CompleteKey
+[1m[93mprobes: [0mapikey.GetKey
+[1m[93mprobes: [0matkgen 🌟
+[1m[93mprobes: [0matkgen.Tox
+[1m[93mprobes: [0maudio 🌟
+[1m[93mprobes: [0maudio.AudioAchillesHeel 💤
+[1m[93mprobes: [0mav_spam_scanning 🌟
+[1m[93mprobes: [0mav_spam_scanning.EICAR 💤
+[1m[93mprobes: [0mav_spam_scanning.GTUBE 💤
+[1m[93mprobes: [0mav_spam_scanning.GTphish 💤
+[1m[93mprobes: [0mbadchars 🌟
+[1m[93mprobes: [0mbadchars.BadCharacters 💤
+[1m[93mprobes: [0mcontinuation 🌟
+[1m[93mprobes: [0mcontinuation.ContinueSlursReclaimedSlurs
+[1m[93mprobes: [0mcontinuation.ContinueSlursReclaimedSlursFull 💤
+[1m[93mprobes: [0mdan 🌟
+[1m[93mprobes: [0mdan.Ablation_Dan_11_0
+[1m[93mprobes: [0mdan.AntiDAN 💤
+[1m[93mprobes: [0mdan.AutoDAN 💤
+[1m[93mprobes: [0mdan.AutoDANCached
+[1m[93mprobes: [0mdan.ChatGPT_Developer_Mode_RANTI 💤
+[1m[93mprobes: [0mdan.ChatGPT_Developer_Mode_v2 💤
+[1m[93mprobes: [0mdan.ChatGPT_Image_Markdown 💤
+[1m[93mprobes: [0mdan.DAN_Jailbreak 💤
+[1m[93mprobes: [0mdan.DUDE 💤
+[1m[93mprobes: [0mdan.DanInTheWild
+[1m[93mprobes: [0mdan.DanInTheWildFull 💤
+[1m[93mprobes: [0mdan.Dan_10_0 💤
+[1m[93mprobes: [0mdan.Dan_11_0 💤
+[1m[93mprobes: [0mdan.Dan_6_0 💤
+[1m[93mprobes: [0mdan.Dan_6_2 💤
+[1m[93mprobes: [0mdan.Dan_7_0 💤
+[1m[93mprobes: [0mdan.Dan_8_0 💤
+[1m[93mprobes: [0mdan.Dan_9_0 💤
+[1m[93mprobes: [0mdan.STAN 💤
+[1m[93mprobes: [0mdivergence 🌟
+[1m[93mprobes: [0mdivergence.Repeat
+[1m[93mprobes: [0mdivergence.RepeatExtended 💤
+[1m[93mprobes: [0mdivergence.RepeatedToken
+[1m[93mprobes: [0mdoctor 🌟
+[1m[93mprobes: [0mdoctor.Bypass 💤
+[1m[93mprobes: [0mdoctor.BypassLeet 💤
+[1m[93mprobes: [0mdoctor.Puppetry 💤
+[1m[93mprobes: [0mdonotanswer 🌟
+[1m[93mprobes: [0mdonotanswer.DiscriminationExclusionToxicityHatefulOffensive 💤
+[1m[93mprobes: [0mdonotanswer.HumanChatbox 💤
+[1m[93mprobes: [0mdonotanswer.InformationHazard 💤
+[1m[93mprobes: [0mdonotanswer.MaliciousUses 💤
+[1m[93mprobes: [0mdonotanswer.MisinformationHarms 💤
+[1m[93mprobes: [0mdra 🌟
+[1m[93mprobes: [0mdra.DRA
+[1m[93mprobes: [0mdra.DRAAdvanced 💤
+[1m[93mprobes: [0mencoding 🌟
+[1m[93mprobes: [0mencoding.InjectAscii85
+[1m[93mprobes: [0mencoding.InjectAtbash
+[1m[93mprobes: [0mencoding.InjectBase16
+[1m[93mprobes: [0mencoding.InjectBase2048
+[1m[93mprobes: [0mencoding.InjectBase32
+[1m[93mprobes: [0mencoding.InjectBase64
+[1m[93mprobes: [0mencoding.InjectBraille
+[1m[93mprobes: [0mencoding.InjectEcoji
+[1m[93mprobes: [0mencoding.InjectHex
+[1m[93mprobes: [0mencoding.InjectLeet 💤
+[1m[93mprobes: [0mencoding.InjectMime 💤
+[1m[93mprobes: [0mencoding.InjectMorse
+[1m[93mprobes: [0mencoding.InjectNato
+[1m[93mprobes: [0mencoding.InjectQP 💤
+[1m[93mprobes: [0mencoding.InjectROT13
+[1m[93mprobes: [0mencoding.InjectSneakyBits 💤
+[1m[93mprobes: [0mencoding.InjectUU
+[1m[93mprobes: [0mencoding.InjectUnicodeTagChars
+[1m[93mprobes: [0mencoding.InjectUnicodeVariantSelectors 💤
+[1m[93mprobes: [0mencoding.InjectZalgo
+[1m[93mprobes: [0mexploitation 🌟
+[1m[93mprobes: [0mexploitation.JinjaTemplatePythonInjection
+[1m[93mprobes: [0mexploitation.SQLInjectionEcho
+[1m[93mprobes: [0mexploitation.SQLInjectionSystem 💤
+[1m[93mprobes: [0mfileformats 🌟
+[1m[93mprobes: [0mfileformats.HF_Files 💤
+[1m[93mprobes: [0mfitd 🌟
+[1m[93mprobes: [0mfitd.FITD 💤
+[1m[93mprobes: [0mglitch 🌟
+[1m[93mprobes: [0mglitch.Glitch 💤
+[1m[93mprobes: [0mglitch.GlitchFull 💤
+[1m[93mprobes: [0mgoodside 🌟
+[1m[93mprobes: [0mgoodside.Davidjl 💤
+[1m[93mprobes: [0mgoodside.Tag
+[1m[93mprobes: [0mgoodside.ThreatenJSON
+[1m[93mprobes: [0mgoodside.WhoIsRiley
+[1m[93mprobes: [0mgrandma 🌟
+[1m[93mprobes: [0mgrandma.Slurs
+[1m[93mprobes: [0mgrandma.Substances
+[1m[93mprobes: [0mgrandma.Win10
+[1m[93mprobes: [0mgrandma.Win11
+[1m[93mprobes: [0mlatentinjection 🌟
+[1m[93mprobes: [0mlatentinjection.LatentInjectionFactSnippetEiffel
+[1m[93mprobes: [0mlatentinjection.LatentInjectionFactSnippetEiffelFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentInjectionFactSnippetLegal
+[1m[93mprobes: [0mlatentinjection.LatentInjectionFactSnippetLegalFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentInjectionReport
+[1m[93mprobes: [0mlatentinjection.LatentInjectionReportFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentInjectionResume
+[1m[93mprobes: [0mlatentinjection.LatentInjectionResumeFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentInjectionTranslationEnFr
+[1m[93mprobes: [0mlatentinjection.LatentInjectionTranslationEnFrFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentInjectionTranslationEnZh
+[1m[93mprobes: [0mlatentinjection.LatentInjectionTranslationEnZhFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentJailbreak
+[1m[93mprobes: [0mlatentinjection.LatentJailbreakFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentWhois
+[1m[93mprobes: [0mlatentinjection.LatentWhoisSnippet
+[1m[93mprobes: [0mlatentinjection.LatentWhoisSnippetFull 💤
+[1m[93mprobes: [0mleakreplay 🌟
+[1m[93mprobes: [0mleakreplay.GuardianCloze
+[1m[93mprobes: [0mleakreplay.GuardianClozeFull 💤
+[1m[93mprobes: [0mleakreplay.GuardianComplete
+[1m[93mprobes: [0mleakreplay.GuardianCompleteFull 💤
+[1m[93mprobes: [0mleakreplay.LiteratureCloze
+[1m[93mprobes: [0mleakreplay.LiteratureClozeFull 💤
+[1m[93mprobes: [0mleakreplay.LiteratureComplete
+[1m[93mprobes: [0mleakreplay.LiteratureCompleteFull 💤
+[1m[93mprobes: [0mleakreplay.NYTCloze
+[1m[93mprobes: [0mleakreplay.NYTClozeFull 💤
+[1m[93mprobes: [0mleakreplay.NYTComplete
+[1m[93mprobes: [0mleakreplay.NYTCompleteFull 💤
+[1m[93mprobes: [0mleakreplay.PotterCloze
+[1m[93mprobes: [0mleakreplay.PotterClozeFull 💤
+[1m[93mprobes: [0mleakreplay.PotterComplete
+[1m[93mprobes: [0mleakreplay.PotterCompleteFull 💤
+[1m[93mprobes: [0mlmrc 🌟
+[1m[93mprobes: [0mlmrc.Anthropomorphisation 💤
+[1m[93mprobes: [0mlmrc.Bullying
+[1m[93mprobes: [0mlmrc.Deadnaming
+[1m[93mprobes: [0mlmrc.Profanity 💤
+[1m[93mprobes: [0mlmrc.QuackMedicine
+[1m[93mprobes: [0mlmrc.SexualContent
+[1m[93mprobes: [0mlmrc.Sexualisation
+[1m[93mprobes: [0mlmrc.SlurUsage
+[1m[93mprobes: [0mmalwaregen 🌟
+[1m[93mprobes: [0mmalwaregen.Evasion
+[1m[93mprobes: [0mmalwaregen.Payload
+[1m[93mprobes: [0mmalwaregen.SubFunctions
+[1m[93mprobes: [0mmalwaregen.TopLevel
+[1m[93mprobes: [0mmisleading 🌟
+[1m[93mprobes: [0mmisleading.FalseAssertion
+[1m[93mprobes: [0mpackagehallucination 🌟
+[1m[93mprobes: [0mpackagehallucination.Dart
+[1m[93mprobes: [0mpackagehallucination.JavaScript
+[1m[93mprobes: [0mpackagehallucination.Perl
+[1m[93mprobes: [0mpackagehallucination.Python
+[1m[93mprobes: [0mpackagehallucination.RakuLand
+[1m[93mprobes: [0mpackagehallucination.Ruby
+[1m[93mprobes: [0mpackagehallucination.Rust
+[1m[93mprobes: [0mphrasing 🌟
+[1m[93mprobes: [0mphrasing.FutureTense
+[1m[93mprobes: [0mphrasing.FutureTenseFull 💤
+[1m[93mprobes: [0mphrasing.PastTense
+[1m[93mprobes: [0mphrasing.PastTenseFull 💤
+[1m[93mprobes: [0mpromptinject 🌟
+[1m[93mprobes: [0mpromptinject.HijackHateHumans
+[1m[93mprobes: [0mpromptinject.HijackHateHumansFull 💤
+[1m[93mprobes: [0mpromptinject.HijackKillHumans
+[1m[93mprobes: [0mpromptinject.HijackKillHumansFull 💤
+[1m[93mprobes: [0mpromptinject.HijackLongPrompt
+[1m[93mprobes: [0mpromptinject.HijackLongPromptFull 💤
+[1m[93mprobes: [0mrealtoxicityprompts 🌟
+[1m[93mprobes: [0mrealtoxicityprompts.RTPBlank
+[1m[93mprobes: [0mrealtoxicityprompts.RTPFlirtation 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPIdentity_Attack 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPInsult 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPProfanity 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPSevere_Toxicity 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPSexually_Explicit 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPThreat 💤
+[1m[93mprobes: [0msata 🌟
+[1m[93mprobes: [0msata.MLM 💤
+[1m[93mprobes: [0msmuggling 🌟
+[1m[93mprobes: [0msmuggling.FunctionMasking 💤
+[1m[93mprobes: [0msmuggling.HypotheticalResponse 💤
+[1m[93mprobes: [0msnowball 🌟
+[1m[93mprobes: [0msnowball.GraphConnectivity
+[1m[93mprobes: [0msnowball.GraphConnectivityFull 💤
+[1m[93mprobes: [0msnowball.Primes 💤
+[1m[93mprobes: [0msnowball.PrimesFull 💤
+[1m[93mprobes: [0msnowball.Senators 💤
+[1m[93mprobes: [0msnowball.SenatorsFull 💤
+[1m[93mprobes: [0msuffix 🌟
+[1m[93mprobes: [0msuffix.BEAST 💤
+[1m[93mprobes: [0msuffix.GCG 💤
+[1m[93mprobes: [0msuffix.GCGCached
+[1m[93mprobes: [0mtap 🌟
+[1m[93mprobes: [0mtap.PAIR 💤
+[1m[93mprobes: [0mtap.TAP 💤
+[1m[93mprobes: [0mtap.TAPCached
+[1m[93mprobes: [0mtest 🌟
+[1m[93mprobes: [0mtest.Blank 💤
+[1m[93mprobes: [0mtest.Test 💤
+[1m[93mprobes: [0mtopic 🌟
+[1m[93mprobes: [0mtopic.WordnetAllowedWords 💤
+[1m[93mprobes: [0mtopic.WordnetBlockedWords 💤
+[1m[93mprobes: [0mtopic.WordnetControversial
+[1m[93mprobes: [0mvisual_jailbreak 🌟
+[1m[93mprobes: [0mvisual_jailbreak.FigStep 💤
+[1m[93mprobes: [0mvisual_jailbreak.FigStepFull 💤
+[1m[93mprobes: [0mweb_injection 🌟
+[1m[93mprobes: [0mweb_injection.ColabAIDataLeakage
+[1m[93mprobes: [0mweb_injection.MarkdownImageExfil
+[1m[93mprobes: [0mweb_injection.MarkdownURIImageExfilExtended
+[1m[93mprobes: [0mweb_injection.MarkdownURINonImageExfilExtended
+[1m[93mprobes: [0mweb_injection.MarkdownXSS
+[1m[93mprobes: [0mweb_injection.PlaygroundMarkdownExfil
+[1m[93mprobes: [0mweb_injection.StringAssemblyDataExfil
+[1m[93mprobes: [0mweb_injection.TaskXSS
+
+2026-01-22 22:13:54,971 - adapters.garak - ERROR - Garak stderr: 
+2026-01-22 22:13:54,971 - adapters.garak - INFO - Garak return code: 0
+2026-01-22 22:13:54,971 - adapters.garak - INFO - Line clean: 'garak LLM vulnerability scanner v0.13.3 ( https://github.com/NVIDIA/garak ) at 2026-01-22T22:13:54.771617'
+2026-01-22 22:13:54,971 - adapters.garak - INFO - Line clean: 'probes: ansiescape 🌟'
+2026-01-22 22:13:54,971 - adapters.garak - INFO - Line clean: 'probes: ansiescape.AnsiEscaped'
+2026-01-22 22:13:54,971 - adapters.garak - INFO - Line clean: 'probes: ansiescape.AnsiRaw'
+2026-01-22 22:13:54,971 - adapters.garak - INFO - Line clean: 'probes: ansiescape.AnsiRawTokenizerHF 💤'
+2026-01-22 22:13:54,971 - adapters.garak - INFO - Parsed 218 probes.
+INFO:     10.4.7.201:36518 - "GET /api/v1/garak/probes HTTP/1.1" 200 OK
+2026-01-22 22:15:28,901 - httpx - INFO - HTTP Request: POST https://kali:3443//api/v1/targets "HTTP/1.1 201 Created"
+2026-01-22 22:15:28,911 - httpx - INFO - HTTP Request: POST https://kali:3443//api/v1/scans "HTTP/1.1 201 Created"
+INFO:     10.4.7.201:55446 - "POST /api/v1/acunetix/scan HTTP/1.1" 200 OK
+2026-01-22 22:15:28,961 - httpx - INFO - HTTP Request: GET https://kali:3443//api/v1/scans/3da46f64-f03b-4671-83ba-8d52e304b744 "HTTP/1.1 200 OK"
+INFO:     10.4.7.201:55446 - "GET /api/v1/acunetix/results/5529e000-a64c-4c98-ac77-aa2134a074d5 HTTP/1.1" 200 OK
+2026-01-22 22:15:28,970 - httpx - INFO - HTTP Request: GET https://kali:3443//api/v1/scans/3da46f64-f03b-4671-83ba-8d52e304b744 "HTTP/1.1 200 OK"
+INFO:     10.4.7.201:55454 - "GET /api/v1/acunetix/status/5529e000-a64c-4c98-ac77-aa2134a074d5 HTTP/1.1" 200 OK
+INFO:     10.4.7.201:57128 - "GET /api/v1/logs/5529e000-a64c-4c98-ac77-aa2134a074d5 HTTP/1.1" 404 Not Found
+INFO:     10.4.7.201:57134 - "GET /api/v1/dashboard/summary HTTP/1.1" 200 OK
+INFO:     10.4.7.201:57138 - "GET /api/v1/dashboard/scans?limit=10 HTTP/1.1" 200 OK
+INFO:     10.4.7.201:57154 - "GET /api/v1/dashboard/scans?limit=100 HTTP/1.1" 200 OK
+INFO:     10.4.7.201:57164 - "GET /api/v1/dashboard/vulnerabilities HTTP/1.1" 200 OK
+INFO:     10.4.7.201:53408 - "GET /api/v1/dashboard/summary HTTP/1.1" 200 OK
+INFO:     10.4.7.201:53424 - "GET /api/v1/dashboard/scans?limit=10 HTTP/1.1" 200 OK
+INFO:     10.4.7.201:37068 - "GET /api/v1/dashboard/vulnerabilities HTTP/1.1" 200 OK
+INFO:     10.4.7.201:60360 - "GET /api/v1/dashboard/summary HTTP/1.1" 200 OK
+INFO:     10.4.7.201:60361 - "GET /api/v1/dashboard/scans?limit=10 HTTP/1.1" 200 OK
+INFO:     10.4.7.201:60362 - "GET /api/v1/dashboard/summary HTTP/1.1" 200 OK
+INFO:     10.4.7.201:60363 - "GET /api/v1/dashboard/scans?limit=10 HTTP/1.1" 200 OK
+INFO:     10.4.7.201:38796 - "GET /api/v1/dashboard/summary HTTP/1.1" 200 OK
+INFO:     10.4.7.201:38808 - "GET /api/v1/dashboard/scans?limit=10 HTTP/1.1" 200 OK
+2026-01-22 22:21:31,661 - adapters.garak - INFO - Fetching HF models from: https://huggingface.co/api/models?pipeline_tag=text-generation&limit=50
+2026-01-22 22:21:31,959 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models?pipeline_tag=text-generation&limit=50 "HTTP/1.1 200 OK"
+INFO:     10.4.7.201:33860 - "GET /api/v1/garak/models?limit=50 HTTP/1.1" 200 OK
+2026-01-22 22:21:32,206 - adapters.garak - INFO - Garak stdout: garak LLM vulnerability scanner v0.13.3 ( https://github.com/NVIDIA/garak ) at 2026-01-22T22:21:32.022127
+[1m[93mprobes: [0mansiescape 🌟
+[1m[93mprobes: [0mansiescape.AnsiEscaped
+[1m[93mprobes: [0mansiescape.AnsiRaw
+[1m[93mprobes: [0mansiescape.AnsiRawTokenizerHF 💤
+[1m[93mprobes: [0mapikey 🌟
+[1m[93mprobes: [0mapikey.CompleteKey
+[1m[93mprobes: [0mapikey.GetKey
+[1m[93mprobes: [0matkgen 🌟
+[1m[93mprobes: [0matkgen.Tox
+[1m[93mprobes: [0maudio 🌟
+[1m[93mprobes: [0maudio.AudioAchillesHeel 💤
+[1m[93mprobes: [0mav_spam_scanning 🌟
+[1m[93mprobes: [0mav_spam_scanning.EICAR 💤
+[1m[93mprobes: [0mav_spam_scanning.GTUBE 💤
+[1m[93mprobes: [0mav_spam_scanning.GTphish 💤
+[1m[93mprobes: [0mbadchars 🌟
+[1m[93mprobes: [0mbadchars.BadCharacters 💤
+[1m[93mprobes: [0mcontinuation 🌟
+[1m[93mprobes: [0mcontinuation.ContinueSlursReclaimedSlurs
+[1m[93mprobes: [0mcontinuation.ContinueSlursReclaimedSlursFull 💤
+[1m[93mprobes: [0mdan 🌟
+[1m[93mprobes: [0mdan.Ablation_Dan_11_0
+[1m[93mprobes: [0mdan.AntiDAN 💤
+[1m[93mprobes: [0mdan.AutoDAN 💤
+[1m[93mprobes: [0mdan.AutoDANCached
+[1m[93mprobes: [0mdan.ChatGPT_Developer_Mode_RANTI 💤
+[1m[93mprobes: [0mdan.ChatGPT_Developer_Mode_v2 💤
+[1m[93mprobes: [0mdan.ChatGPT_Image_Markdown 💤
+[1m[93mprobes: [0mdan.DAN_Jailbreak 💤
+[1m[93mprobes: [0mdan.DUDE 💤
+[1m[93mprobes: [0mdan.DanInTheWild
+[1m[93mprobes: [0mdan.DanInTheWildFull 💤
+[1m[93mprobes: [0mdan.Dan_10_0 💤
+[1m[93mprobes: [0mdan.Dan_11_0 💤
+[1m[93mprobes: [0mdan.Dan_6_0 💤
+[1m[93mprobes: [0mdan.Dan_6_2 💤
+[1m[93mprobes: [0mdan.Dan_7_0 💤
+[1m[93mprobes: [0mdan.Dan_8_0 💤
+[1m[93mprobes: [0mdan.Dan_9_0 💤
+[1m[93mprobes: [0mdan.STAN 💤
+[1m[93mprobes: [0mdivergence 🌟
+[1m[93mprobes: [0mdivergence.Repeat
+[1m[93mprobes: [0mdivergence.RepeatExtended 💤
+[1m[93mprobes: [0mdivergence.RepeatedToken
+[1m[93mprobes: [0mdoctor 🌟
+[1m[93mprobes: [0mdoctor.Bypass 💤
+[1m[93mprobes: [0mdoctor.BypassLeet 💤
+[1m[93mprobes: [0mdoctor.Puppetry 💤
+[1m[93mprobes: [0mdonotanswer 🌟
+[1m[93mprobes: [0mdonotanswer.DiscriminationExclusionToxicityHatefulOffensive 💤
+[1m[93mprobes: [0mdonotanswer.HumanChatbox 💤
+[1m[93mprobes: [0mdonotanswer.InformationHazard 💤
+[1m[93mprobes: [0mdonotanswer.MaliciousUses 💤
+[1m[93mprobes: [0mdonotanswer.MisinformationHarms 💤
+[1m[93mprobes: [0mdra 🌟
+[1m[93mprobes: [0mdra.DRA
+[1m[93mprobes: [0mdra.DRAAdvanced 💤
+[1m[93mprobes: [0mencoding 🌟
+[1m[93mprobes: [0mencoding.InjectAscii85
+[1m[93mprobes: [0mencoding.InjectAtbash
+[1m[93mprobes: [0mencoding.InjectBase16
+[1m[93mprobes: [0mencoding.InjectBase2048
+[1m[93mprobes: [0mencoding.InjectBase32
+[1m[93mprobes: [0mencoding.InjectBase64
+[1m[93mprobes: [0mencoding.InjectBraille
+[1m[93mprobes: [0mencoding.InjectEcoji
+[1m[93mprobes: [0mencoding.InjectHex
+[1m[93mprobes: [0mencoding.InjectLeet 💤
+[1m[93mprobes: [0mencoding.InjectMime 💤
+[1m[93mprobes: [0mencoding.InjectMorse
+[1m[93mprobes: [0mencoding.InjectNato
+[1m[93mprobes: [0mencoding.InjectQP 💤
+[1m[93mprobes: [0mencoding.InjectROT13
+[1m[93mprobes: [0mencoding.InjectSneakyBits 💤
+[1m[93mprobes: [0mencoding.InjectUU
+[1m[93mprobes: [0mencoding.InjectUnicodeTagChars
+[1m[93mprobes: [0mencoding.InjectUnicodeVariantSelectors 💤
+[1m[93mprobes: [0mencoding.InjectZalgo
+[1m[93mprobes: [0mexploitation 🌟
+[1m[93mprobes: [0mexploitation.JinjaTemplatePythonInjection
+[1m[93mprobes: [0mexploitation.SQLInjectionEcho
+[1m[93mprobes: [0mexploitation.SQLInjectionSystem 💤
+[1m[93mprobes: [0mfileformats 🌟
+[1m[93mprobes: [0mfileformats.HF_Files 💤
+[1m[93mprobes: [0mfitd 🌟
+[1m[93mprobes: [0mfitd.FITD 💤
+[1m[93mprobes: [0mglitch 🌟
+[1m[93mprobes: [0mglitch.Glitch 💤
+[1m[93mprobes: [0mglitch.GlitchFull 💤
+[1m[93mprobes: [0mgoodside 🌟
+[1m[93mprobes: [0mgoodside.Davidjl 💤
+[1m[93mprobes: [0mgoodside.Tag
+[1m[93mprobes: [0mgoodside.ThreatenJSON
+[1m[93mprobes: [0mgoodside.WhoIsRiley
+[1m[93mprobes: [0mgrandma 🌟
+[1m[93mprobes: [0mgrandma.Slurs
+[1m[93mprobes: [0mgrandma.Substances
+[1m[93mprobes: [0mgrandma.Win10
+[1m[93mprobes: [0mgrandma.Win11
+[1m[93mprobes: [0mlatentinjection 🌟
+[1m[93mprobes: [0mlatentinjection.LatentInjectionFactSnippetEiffel
+[1m[93mprobes: [0mlatentinjection.LatentInjectionFactSnippetEiffelFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentInjectionFactSnippetLegal
+[1m[93mprobes: [0mlatentinjection.LatentInjectionFactSnippetLegalFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentInjectionReport
+[1m[93mprobes: [0mlatentinjection.LatentInjectionReportFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentInjectionResume
+[1m[93mprobes: [0mlatentinjection.LatentInjectionResumeFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentInjectionTranslationEnFr
+[1m[93mprobes: [0mlatentinjection.LatentInjectionTranslationEnFrFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentInjectionTranslationEnZh
+[1m[93mprobes: [0mlatentinjection.LatentInjectionTranslationEnZhFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentJailbreak
+[1m[93mprobes: [0mlatentinjection.LatentJailbreakFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentWhois
+[1m[93mprobes: [0mlatentinjection.LatentWhoisSnippet
+[1m[93mprobes: [0mlatentinjection.LatentWhoisSnippetFull 💤
+[1m[93mprobes: [0mleakreplay 🌟
+[1m[93mprobes: [0mleakreplay.GuardianCloze
+[1m[93mprobes: [0mleakreplay.GuardianClozeFull 💤
+[1m[93mprobes: [0mleakreplay.GuardianComplete
+[1m[93mprobes: [0mleakreplay.GuardianCompleteFull 💤
+[1m[93mprobes: [0mleakreplay.LiteratureCloze
+[1m[93mprobes: [0mleakreplay.LiteratureClozeFull 💤
+[1m[93mprobes: [0mleakreplay.LiteratureComplete
+[1m[93mprobes: [0mleakreplay.LiteratureCompleteFull 💤
+[1m[93mprobes: [0mleakreplay.NYTCloze
+[1m[93mprobes: [0mleakreplay.NYTClozeFull 💤
+[1m[93mprobes: [0mleakreplay.NYTComplete
+[1m[93mprobes: [0mleakreplay.NYTCompleteFull 💤
+[1m[93mprobes: [0mleakreplay.PotterCloze
+[1m[93mprobes: [0mleakreplay.PotterClozeFull 💤
+[1m[93mprobes: [0mleakreplay.PotterComplete
+[1m[93mprobes: [0mleakreplay.PotterCompleteFull 💤
+[1m[93mprobes: [0mlmrc 🌟
+[1m[93mprobes: [0mlmrc.Anthropomorphisation 💤
+[1m[93mprobes: [0mlmrc.Bullying
+[1m[93mprobes: [0mlmrc.Deadnaming
+[1m[93mprobes: [0mlmrc.Profanity 💤
+[1m[93mprobes: [0mlmrc.QuackMedicine
+[1m[93mprobes: [0mlmrc.SexualContent
+[1m[93mprobes: [0mlmrc.Sexualisation
+[1m[93mprobes: [0mlmrc.SlurUsage
+[1m[93mprobes: [0mmalwaregen 🌟
+[1m[93mprobes: [0mmalwaregen.Evasion
+[1m[93mprobes: [0mmalwaregen.Payload
+[1m[93mprobes: [0mmalwaregen.SubFunctions
+[1m[93mprobes: [0mmalwaregen.TopLevel
+[1m[93mprobes: [0mmisleading 🌟
+[1m[93mprobes: [0mmisleading.FalseAssertion
+[1m[93mprobes: [0mpackagehallucination 🌟
+[1m[93mprobes: [0mpackagehallucination.Dart
+[1m[93mprobes: [0mpackagehallucination.JavaScript
+[1m[93mprobes: [0mpackagehallucination.Perl
+[1m[93mprobes: [0mpackagehallucination.Python
+[1m[93mprobes: [0mpackagehallucination.RakuLand
+[1m[93mprobes: [0mpackagehallucination.Ruby
+[1m[93mprobes: [0mpackagehallucination.Rust
+[1m[93mprobes: [0mphrasing 🌟
+[1m[93mprobes: [0mphrasing.FutureTense
+[1m[93mprobes: [0mphrasing.FutureTenseFull 💤
+[1m[93mprobes: [0mphrasing.PastTense
+[1m[93mprobes: [0mphrasing.PastTenseFull 💤
+[1m[93mprobes: [0mpromptinject 🌟
+[1m[93mprobes: [0mpromptinject.HijackHateHumans
+[1m[93mprobes: [0mpromptinject.HijackHateHumansFull 💤
+[1m[93mprobes: [0mpromptinject.HijackKillHumans
+[1m[93mprobes: [0mpromptinject.HijackKillHumansFull 💤
+[1m[93mprobes: [0mpromptinject.HijackLongPrompt
+[1m[93mprobes: [0mpromptinject.HijackLongPromptFull 💤
+[1m[93mprobes: [0mrealtoxicityprompts 🌟
+[1m[93mprobes: [0mrealtoxicityprompts.RTPBlank
+[1m[93mprobes: [0mrealtoxicityprompts.RTPFlirtation 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPIdentity_Attack 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPInsult 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPProfanity 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPSevere_Toxicity 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPSexually_Explicit 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPThreat 💤
+[1m[93mprobes: [0msata 🌟
+[1m[93mprobes: [0msata.MLM 💤
+[1m[93mprobes: [0msmuggling 🌟
+[1m[93mprobes: [0msmuggling.FunctionMasking 💤
+[1m[93mprobes: [0msmuggling.HypotheticalResponse 💤
+[1m[93mprobes: [0msnowball 🌟
+[1m[93mprobes: [0msnowball.GraphConnectivity
+[1m[93mprobes: [0msnowball.GraphConnectivityFull 💤
+[1m[93mprobes: [0msnowball.Primes 💤
+[1m[93mprobes: [0msnowball.PrimesFull 💤
+[1m[93mprobes: [0msnowball.Senators 💤
+[1m[93mprobes: [0msnowball.SenatorsFull 💤
+[1m[93mprobes: [0msuffix 🌟
+[1m[93mprobes: [0msuffix.BEAST 💤
+[1m[93mprobes: [0msuffix.GCG 💤
+[1m[93mprobes: [0msuffix.GCGCached
+[1m[93mprobes: [0mtap 🌟
+[1m[93mprobes: [0mtap.PAIR 💤
+[1m[93mprobes: [0mtap.TAP 💤
+[1m[93mprobes: [0mtap.TAPCached
+[1m[93mprobes: [0mtest 🌟
+[1m[93mprobes: [0mtest.Blank 💤
+[1m[93mprobes: [0mtest.Test 💤
+[1m[93mprobes: [0mtopic 🌟
+[1m[93mprobes: [0mtopic.WordnetAllowedWords 💤
+[1m[93mprobes: [0mtopic.WordnetBlockedWords 💤
+[1m[93mprobes: [0mtopic.WordnetControversial
+[1m[93mprobes: [0mvisual_jailbreak 🌟
+[1m[93mprobes: [0mvisual_jailbreak.FigStep 💤
+[1m[93mprobes: [0mvisual_jailbreak.FigStepFull 💤
+[1m[93mprobes: [0mweb_injection 🌟
+[1m[93mprobes: [0mweb_injection.ColabAIDataLeakage
+[1m[93mprobes: [0mweb_injection.MarkdownImageExfil
+[1m[93mprobes: [0mweb_injection.MarkdownURIImageExfilExtended
+[1m[93mprobes: [0mweb_injection.MarkdownURINonImageExfilExtended
+[1m[93mprobes: [0mweb_injection.MarkdownXSS
+[1m[93mprobes: [0mweb_injection.PlaygroundMarkdownExfil
+[1m[93mprobes: [0mweb_injection.StringAssemblyDataExfil
+[1m[93mprobes: [0mweb_injection.TaskXSS
+
+2026-01-22 22:21:32,206 - adapters.garak - ERROR - Garak stderr: 
+2026-01-22 22:21:32,206 - adapters.garak - INFO - Garak return code: 0
+2026-01-22 22:21:32,206 - adapters.garak - INFO - Line clean: 'garak LLM vulnerability scanner v0.13.3 ( https://github.com/NVIDIA/garak ) at 2026-01-22T22:21:32.022127'
+2026-01-22 22:21:32,206 - adapters.garak - INFO - Line clean: 'probes: ansiescape 🌟'
+2026-01-22 22:21:32,206 - adapters.garak - INFO - Line clean: 'probes: ansiescape.AnsiEscaped'
+2026-01-22 22:21:32,206 - adapters.garak - INFO - Line clean: 'probes: ansiescape.AnsiRaw'
+2026-01-22 22:21:32,206 - adapters.garak - INFO - Line clean: 'probes: ansiescape.AnsiRawTokenizerHF 💤'
+2026-01-22 22:21:32,206 - adapters.garak - INFO - Parsed 218 probes.
+INFO:     10.4.7.201:33860 - "GET /api/v1/garak/probes HTTP/1.1" 200 OK
+2026-01-22 22:21:42,454 - httpx - INFO - HTTP Request: POST https://kali:3443//api/v1/targets "HTTP/1.1 201 Created"
+2026-01-22 22:21:42,472 - httpx - INFO - HTTP Request: POST https://kali:3443//api/v1/scans "HTTP/1.1 201 Created"
+INFO:     10.4.7.201:34042 - "POST /api/v1/acunetix/scan HTTP/1.1" 200 OK
+2026-01-22 22:21:42,542 - httpx - INFO - HTTP Request: GET https://kali:3443//api/v1/scans/6fef665b-0748-4580-b752-de69cb59e357 "HTTP/1.1 200 OK"
+INFO:     10.4.7.201:34042 - "GET /api/v1/acunetix/results/1963c0f8-a411-4649-8189-9e1522fb3350 HTTP/1.1" 200 OK
+2026-01-22 22:21:42,546 - httpx - INFO - HTTP Request: GET https://kali:3443//api/v1/scans/6fef665b-0748-4580-b752-de69cb59e357 "HTTP/1.1 200 OK"
+INFO:     10.4.7.201:34050 - "GET /api/v1/acunetix/status/1963c0f8-a411-4649-8189-9e1522fb3350 HTTP/1.1" 200 OK
+2026-01-22 22:24:15,363 - adapters.garak - INFO - Fetching HF models from: https://huggingface.co/api/models?pipeline_tag=text-generation&limit=50
+2026-01-22 22:24:15,661 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models?pipeline_tag=text-generation&limit=50 "HTTP/1.1 200 OK"
+INFO:     10.4.7.201:55323 - "GET /api/v1/garak/models?limit=50 HTTP/1.1" 200 OK
+INFO:     10.4.7.201:39108 - "GET /api/v1/dashboard/summary HTTP/1.1" 200 OK
+INFO:     10.4.7.201:39126 - "GET /api/v1/dashboard/vulnerabilities HTTP/1.1" 200 OK
+INFO:     10.4.7.201:39124 - "GET /api/v1/dashboard/scans?limit=10 HTTP/1.1" 200 OK
+2026-01-22 22:26:39,196 - adapters.garak - INFO - Fetching HF models from: https://huggingface.co/api/models?pipeline_tag=text-generation&limit=50
+2026-01-22 22:26:39,478 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models?pipeline_tag=text-generation&limit=50 "HTTP/1.1 200 OK"
+INFO:     10.4.7.201:35484 - "GET /api/v1/garak/models?limit=50 HTTP/1.1" 200 OK
+2026-01-22 22:26:39,774 - adapters.garak - INFO - Garak stdout: garak LLM vulnerability scanner v0.13.3 ( https://github.com/NVIDIA/garak ) at 2026-01-22T22:26:39.533420
+[1m[93mprobes: [0mansiescape 🌟
+[1m[93mprobes: [0mansiescape.AnsiEscaped
+[1m[93mprobes: [0mansiescape.AnsiRaw
+[1m[93mprobes: [0mansiescape.AnsiRawTokenizerHF 💤
+[1m[93mprobes: [0mapikey 🌟
+[1m[93mprobes: [0mapikey.CompleteKey
+[1m[93mprobes: [0mapikey.GetKey
+[1m[93mprobes: [0matkgen 🌟
+[1m[93mprobes: [0matkgen.Tox
+[1m[93mprobes: [0maudio 🌟
+[1m[93mprobes: [0maudio.AudioAchillesHeel 💤
+[1m[93mprobes: [0mav_spam_scanning 🌟
+[1m[93mprobes: [0mav_spam_scanning.EICAR 💤
+[1m[93mprobes: [0mav_spam_scanning.GTUBE 💤
+[1m[93mprobes: [0mav_spam_scanning.GTphish 💤
+[1m[93mprobes: [0mbadchars 🌟
+[1m[93mprobes: [0mbadchars.BadCharacters 💤
+[1m[93mprobes: [0mcontinuation 🌟
+[1m[93mprobes: [0mcontinuation.ContinueSlursReclaimedSlurs
+[1m[93mprobes: [0mcontinuation.ContinueSlursReclaimedSlursFull 💤
+[1m[93mprobes: [0mdan 🌟
+[1m[93mprobes: [0mdan.Ablation_Dan_11_0
+[1m[93mprobes: [0mdan.AntiDAN 💤
+[1m[93mprobes: [0mdan.AutoDAN 💤
+[1m[93mprobes: [0mdan.AutoDANCached
+[1m[93mprobes: [0mdan.ChatGPT_Developer_Mode_RANTI 💤
+[1m[93mprobes: [0mdan.ChatGPT_Developer_Mode_v2 💤
+[1m[93mprobes: [0mdan.ChatGPT_Image_Markdown 💤
+[1m[93mprobes: [0mdan.DAN_Jailbreak 💤
+[1m[93mprobes: [0mdan.DUDE 💤
+[1m[93mprobes: [0mdan.DanInTheWild
+[1m[93mprobes: [0mdan.DanInTheWildFull 💤
+[1m[93mprobes: [0mdan.Dan_10_0 💤
+[1m[93mprobes: [0mdan.Dan_11_0 💤
+[1m[93mprobes: [0mdan.Dan_6_0 💤
+[1m[93mprobes: [0mdan.Dan_6_2 💤
+[1m[93mprobes: [0mdan.Dan_7_0 💤
+[1m[93mprobes: [0mdan.Dan_8_0 💤
+[1m[93mprobes: [0mdan.Dan_9_0 💤
+[1m[93mprobes: [0mdan.STAN 💤
+[1m[93mprobes: [0mdivergence 🌟
+[1m[93mprobes: [0mdivergence.Repeat
+[1m[93mprobes: [0mdivergence.RepeatExtended 💤
+[1m[93mprobes: [0mdivergence.RepeatedToken
+[1m[93mprobes: [0mdoctor 🌟
+[1m[93mprobes: [0mdoctor.Bypass 💤
+[1m[93mprobes: [0mdoctor.BypassLeet 💤
+[1m[93mprobes: [0mdoctor.Puppetry 💤
+[1m[93mprobes: [0mdonotanswer 🌟
+[1m[93mprobes: [0mdonotanswer.DiscriminationExclusionToxicityHatefulOffensive 💤
+[1m[93mprobes: [0mdonotanswer.HumanChatbox 💤
+[1m[93mprobes: [0mdonotanswer.InformationHazard 💤
+[1m[93mprobes: [0mdonotanswer.MaliciousUses 💤
+[1m[93mprobes: [0mdonotanswer.MisinformationHarms 💤
+[1m[93mprobes: [0mdra 🌟
+[1m[93mprobes: [0mdra.DRA
+[1m[93mprobes: [0mdra.DRAAdvanced 💤
+[1m[93mprobes: [0mencoding 🌟
+[1m[93mprobes: [0mencoding.InjectAscii85
+[1m[93mprobes: [0mencoding.InjectAtbash
+[1m[93mprobes: [0mencoding.InjectBase16
+[1m[93mprobes: [0mencoding.InjectBase2048
+[1m[93mprobes: [0mencoding.InjectBase32
+[1m[93mprobes: [0mencoding.InjectBase64
+[1m[93mprobes: [0mencoding.InjectBraille
+[1m[93mprobes: [0mencoding.InjectEcoji
+[1m[93mprobes: [0mencoding.InjectHex
+[1m[93mprobes: [0mencoding.InjectLeet 💤
+[1m[93mprobes: [0mencoding.InjectMime 💤
+[1m[93mprobes: [0mencoding.InjectMorse
+[1m[93mprobes: [0mencoding.InjectNato
+[1m[93mprobes: [0mencoding.InjectQP 💤
+[1m[93mprobes: [0mencoding.InjectROT13
+[1m[93mprobes: [0mencoding.InjectSneakyBits 💤
+[1m[93mprobes: [0mencoding.InjectUU
+[1m[93mprobes: [0mencoding.InjectUnicodeTagChars
+[1m[93mprobes: [0mencoding.InjectUnicodeVariantSelectors 💤
+[1m[93mprobes: [0mencoding.InjectZalgo
+[1m[93mprobes: [0mexploitation 🌟
+[1m[93mprobes: [0mexploitation.JinjaTemplatePythonInjection
+[1m[93mprobes: [0mexploitation.SQLInjectionEcho
+[1m[93mprobes: [0mexploitation.SQLInjectionSystem 💤
+[1m[93mprobes: [0mfileformats 🌟
+[1m[93mprobes: [0mfileformats.HF_Files 💤
+[1m[93mprobes: [0mfitd 🌟
+[1m[93mprobes: [0mfitd.FITD 💤
+[1m[93mprobes: [0mglitch 🌟
+[1m[93mprobes: [0mglitch.Glitch 💤
+[1m[93mprobes: [0mglitch.GlitchFull 💤
+[1m[93mprobes: [0mgoodside 🌟
+[1m[93mprobes: [0mgoodside.Davidjl 💤
+[1m[93mprobes: [0mgoodside.Tag
+[1m[93mprobes: [0mgoodside.ThreatenJSON
+[1m[93mprobes: [0mgoodside.WhoIsRiley
+[1m[93mprobes: [0mgrandma 🌟
+[1m[93mprobes: [0mgrandma.Slurs
+[1m[93mprobes: [0mgrandma.Substances
+[1m[93mprobes: [0mgrandma.Win10
+[1m[93mprobes: [0mgrandma.Win11
+[1m[93mprobes: [0mlatentinjection 🌟
+[1m[93mprobes: [0mlatentinjection.LatentInjectionFactSnippetEiffel
+[1m[93mprobes: [0mlatentinjection.LatentInjectionFactSnippetEiffelFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentInjectionFactSnippetLegal
+[1m[93mprobes: [0mlatentinjection.LatentInjectionFactSnippetLegalFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentInjectionReport
+[1m[93mprobes: [0mlatentinjection.LatentInjectionReportFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentInjectionResume
+[1m[93mprobes: [0mlatentinjection.LatentInjectionResumeFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentInjectionTranslationEnFr
+[1m[93mprobes: [0mlatentinjection.LatentInjectionTranslationEnFrFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentInjectionTranslationEnZh
+[1m[93mprobes: [0mlatentinjection.LatentInjectionTranslationEnZhFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentJailbreak
+[1m[93mprobes: [0mlatentinjection.LatentJailbreakFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentWhois
+[1m[93mprobes: [0mlatentinjection.LatentWhoisSnippet
+[1m[93mprobes: [0mlatentinjection.LatentWhoisSnippetFull 💤
+[1m[93mprobes: [0mleakreplay 🌟
+[1m[93mprobes: [0mleakreplay.GuardianCloze
+[1m[93mprobes: [0mleakreplay.GuardianClozeFull 💤
+[1m[93mprobes: [0mleakreplay.GuardianComplete
+[1m[93mprobes: [0mleakreplay.GuardianCompleteFull 💤
+[1m[93mprobes: [0mleakreplay.LiteratureCloze
+[1m[93mprobes: [0mleakreplay.LiteratureClozeFull 💤
+[1m[93mprobes: [0mleakreplay.LiteratureComplete
+[1m[93mprobes: [0mleakreplay.LiteratureCompleteFull 💤
+[1m[93mprobes: [0mleakreplay.NYTCloze
+[1m[93mprobes: [0mleakreplay.NYTClozeFull 💤
+[1m[93mprobes: [0mleakreplay.NYTComplete
+[1m[93mprobes: [0mleakreplay.NYTCompleteFull 💤
+[1m[93mprobes: [0mleakreplay.PotterCloze
+[1m[93mprobes: [0mleakreplay.PotterClozeFull 💤
+[1m[93mprobes: [0mleakreplay.PotterComplete
+[1m[93mprobes: [0mleakreplay.PotterCompleteFull 💤
+[1m[93mprobes: [0mlmrc 🌟
+[1m[93mprobes: [0mlmrc.Anthropomorphisation 💤
+[1m[93mprobes: [0mlmrc.Bullying
+[1m[93mprobes: [0mlmrc.Deadnaming
+[1m[93mprobes: [0mlmrc.Profanity 💤
+[1m[93mprobes: [0mlmrc.QuackMedicine
+[1m[93mprobes: [0mlmrc.SexualContent
+[1m[93mprobes: [0mlmrc.Sexualisation
+[1m[93mprobes: [0mlmrc.SlurUsage
+[1m[93mprobes: [0mmalwaregen 🌟
+[1m[93mprobes: [0mmalwaregen.Evasion
+[1m[93mprobes: [0mmalwaregen.Payload
+[1m[93mprobes: [0mmalwaregen.SubFunctions
+[1m[93mprobes: [0mmalwaregen.TopLevel
+[1m[93mprobes: [0mmisleading 🌟
+[1m[93mprobes: [0mmisleading.FalseAssertion
+[1m[93mprobes: [0mpackagehallucination 🌟
+[1m[93mprobes: [0mpackagehallucination.Dart
+[1m[93mprobes: [0mpackagehallucination.JavaScript
+[1m[93mprobes: [0mpackagehallucination.Perl
+[1m[93mprobes: [0mpackagehallucination.Python
+[1m[93mprobes: [0mpackagehallucination.RakuLand
+[1m[93mprobes: [0mpackagehallucination.Ruby
+[1m[93mprobes: [0mpackagehallucination.Rust
+[1m[93mprobes: [0mphrasing 🌟
+[1m[93mprobes: [0mphrasing.FutureTense
+[1m[93mprobes: [0mphrasing.FutureTenseFull 💤
+[1m[93mprobes: [0mphrasing.PastTense
+[1m[93mprobes: [0mphrasing.PastTenseFull 💤
+[1m[93mprobes: [0mpromptinject 🌟
+[1m[93mprobes: [0mpromptinject.HijackHateHumans
+[1m[93mprobes: [0mpromptinject.HijackHateHumansFull 💤
+[1m[93mprobes: [0mpromptinject.HijackKillHumans
+[1m[93mprobes: [0mpromptinject.HijackKillHumansFull 💤
+[1m[93mprobes: [0mpromptinject.HijackLongPrompt
+[1m[93mprobes: [0mpromptinject.HijackLongPromptFull 💤
+[1m[93mprobes: [0mrealtoxicityprompts 🌟
+[1m[93mprobes: [0mrealtoxicityprompts.RTPBlank
+[1m[93mprobes: [0mrealtoxicityprompts.RTPFlirtation 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPIdentity_Attack 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPInsult 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPProfanity 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPSevere_Toxicity 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPSexually_Explicit 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPThreat 💤
+[1m[93mprobes: [0msata 🌟
+[1m[93mprobes: [0msata.MLM 💤
+[1m[93mprobes: [0msmuggling 🌟
+[1m[93mprobes: [0msmuggling.FunctionMasking 💤
+[1m[93mprobes: [0msmuggling.HypotheticalResponse 💤
+[1m[93mprobes: [0msnowball 🌟
+[1m[93mprobes: [0msnowball.GraphConnectivity
+[1m[93mprobes: [0msnowball.GraphConnectivityFull 💤
+[1m[93mprobes: [0msnowball.Primes 💤
+[1m[93mprobes: [0msnowball.PrimesFull 💤
+[1m[93mprobes: [0msnowball.Senators 💤
+[1m[93mprobes: [0msnowball.SenatorsFull 💤
+[1m[93mprobes: [0msuffix 🌟
+[1m[93mprobes: [0msuffix.BEAST 💤
+[1m[93mprobes: [0msuffix.GCG 💤
+[1m[93mprobes: [0msuffix.GCGCached
+[1m[93mprobes: [0mtap 🌟
+[1m[93mprobes: [0mtap.PAIR 💤
+[1m[93mprobes: [0mtap.TAP 💤
+[1m[93mprobes: [0mtap.TAPCached
+[1m[93mprobes: [0mtest 🌟
+[1m[93mprobes: [0mtest.Blank 💤
+[1m[93mprobes: [0mtest.Test 💤
+[1m[93mprobes: [0mtopic 🌟
+[1m[93mprobes: [0mtopic.WordnetAllowedWords 💤
+[1m[93mprobes: [0mtopic.WordnetBlockedWords 💤
+[1m[93mprobes: [0mtopic.WordnetControversial
+[1m[93mprobes: [0mvisual_jailbreak 🌟
+[1m[93mprobes: [0mvisual_jailbreak.FigStep 💤
+[1m[93mprobes: [0mvisual_jailbreak.FigStepFull 💤
+[1m[93mprobes: [0mweb_injection 🌟
+[1m[93mprobes: [0mweb_injection.ColabAIDataLeakage
+[1m[93mprobes: [0mweb_injection.MarkdownImageExfil
+[1m[93mprobes: [0mweb_injection.MarkdownURIImageExfilExtended
+[1m[93mprobes: [0mweb_injection.MarkdownURINonImageExfilExtended
+[1m[93mprobes: [0mweb_injection.MarkdownXSS
+[1m[93mprobes: [0mweb_injection.PlaygroundMarkdownExfil
+[1m[93mprobes: [0mweb_injection.StringAssemblyDataExfil
+[1m[93mprobes: [0mweb_injection.TaskXSS
+
+2026-01-22 22:26:39,774 - adapters.garak - ERROR - Garak stderr: 
+2026-01-22 22:26:39,774 - adapters.garak - INFO - Garak return code: 0
+2026-01-22 22:26:39,774 - adapters.garak - INFO - Line clean: 'garak LLM vulnerability scanner v0.13.3 ( https://github.com/NVIDIA/garak ) at 2026-01-22T22:26:39.533420'
+2026-01-22 22:26:39,774 - adapters.garak - INFO - Line clean: 'probes: ansiescape 🌟'
+2026-01-22 22:26:39,774 - adapters.garak - INFO - Line clean: 'probes: ansiescape.AnsiEscaped'
+2026-01-22 22:26:39,774 - adapters.garak - INFO - Line clean: 'probes: ansiescape.AnsiRaw'
+2026-01-22 22:26:39,774 - adapters.garak - INFO - Line clean: 'probes: ansiescape.AnsiRawTokenizerHF 💤'
+2026-01-22 22:26:39,774 - adapters.garak - INFO - Parsed 218 probes.
+INFO:     10.4.7.201:35484 - "GET /api/v1/garak/probes HTTP/1.1" 200 OK
+2026-01-22 22:26:59,529 - httpx - INFO - HTTP Request: POST https://kali:3443//api/v1/targets "HTTP/1.1 201 Created"
+2026-01-22 22:26:59,545 - httpx - INFO - HTTP Request: POST https://kali:3443//api/v1/scans "HTTP/1.1 201 Created"
+INFO:     10.4.7.201:44966 - "POST /api/v1/acunetix/scan HTTP/1.1" 200 OK
+INFO:     10.4.7.201:52173 - "GET /api/v1/dashboard/summary HTTP/1.1" 200 OK
+INFO:     10.4.7.201:52174 - "GET /api/v1/dashboard/scans?limit=10 HTTP/1.1" 200 OK
+INFO:     10.4.7.201:56091 - "GET /api/v1/dashboard/summary HTTP/1.1" 200 OK
+INFO:     10.4.7.201:65090 - "GET /api/v1/dashboard/scans?limit=10 HTTP/1.1" 200 OK
+INFO:     10.4.7.201:54038 - "GET /api/v1/dashboard/scans?limit=10 HTTP/1.1" 200 OK
+INFO:     10.4.7.201:54036 - "GET /api/v1/dashboard/summary HTTP/1.1" 200 OK
+INFO:     10.4.7.201:54050 - "GET /api/v1/dashboard/vulnerabilities HTTP/1.1" 200 OK
+2026-01-22 22:28:36,834 - adapters.garak - INFO - Fetching HF models from: https://huggingface.co/api/models?pipeline_tag=text-generation&limit=50
+2026-01-22 22:28:37,100 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models?pipeline_tag=text-generation&limit=50 "HTTP/1.1 200 OK"
+INFO:     10.4.7.201:54036 - "GET /api/v1/garak/models?limit=50 HTTP/1.1" 200 OK
+2026-01-22 22:28:37,496 - adapters.garak - INFO - Garak stdout: garak LLM vulnerability scanner v0.13.3 ( https://github.com/NVIDIA/garak ) at 2026-01-22T22:28:37.244082
+[1m[93mprobes: [0mansiescape 🌟
+[1m[93mprobes: [0mansiescape.AnsiEscaped
+[1m[93mprobes: [0mansiescape.AnsiRaw
+[1m[93mprobes: [0mansiescape.AnsiRawTokenizerHF 💤
+[1m[93mprobes: [0mapikey 🌟
+[1m[93mprobes: [0mapikey.CompleteKey
+[1m[93mprobes: [0mapikey.GetKey
+[1m[93mprobes: [0matkgen 🌟
+[1m[93mprobes: [0matkgen.Tox
+[1m[93mprobes: [0maudio 🌟
+[1m[93mprobes: [0maudio.AudioAchillesHeel 💤
+[1m[93mprobes: [0mav_spam_scanning 🌟
+[1m[93mprobes: [0mav_spam_scanning.EICAR 💤
+[1m[93mprobes: [0mav_spam_scanning.GTUBE 💤
+[1m[93mprobes: [0mav_spam_scanning.GTphish 💤
+[1m[93mprobes: [0mbadchars 🌟
+[1m[93mprobes: [0mbadchars.BadCharacters 💤
+[1m[93mprobes: [0mcontinuation 🌟
+[1m[93mprobes: [0mcontinuation.ContinueSlursReclaimedSlurs
+[1m[93mprobes: [0mcontinuation.ContinueSlursReclaimedSlursFull 💤
+[1m[93mprobes: [0mdan 🌟
+[1m[93mprobes: [0mdan.Ablation_Dan_11_0
+[1m[93mprobes: [0mdan.AntiDAN 💤
+[1m[93mprobes: [0mdan.AutoDAN 💤
+[1m[93mprobes: [0mdan.AutoDANCached
+[1m[93mprobes: [0mdan.ChatGPT_Developer_Mode_RANTI 💤
+[1m[93mprobes: [0mdan.ChatGPT_Developer_Mode_v2 💤
+[1m[93mprobes: [0mdan.ChatGPT_Image_Markdown 💤
+[1m[93mprobes: [0mdan.DAN_Jailbreak 💤
+[1m[93mprobes: [0mdan.DUDE 💤
+[1m[93mprobes: [0mdan.DanInTheWild
+[1m[93mprobes: [0mdan.DanInTheWildFull 💤
+[1m[93mprobes: [0mdan.Dan_10_0 💤
+[1m[93mprobes: [0mdan.Dan_11_0 💤
+[1m[93mprobes: [0mdan.Dan_6_0 💤
+[1m[93mprobes: [0mdan.Dan_6_2 💤
+[1m[93mprobes: [0mdan.Dan_7_0 💤
+[1m[93mprobes: [0mdan.Dan_8_0 💤
+[1m[93mprobes: [0mdan.Dan_9_0 💤
+[1m[93mprobes: [0mdan.STAN 💤
+[1m[93mprobes: [0mdivergence 🌟
+[1m[93mprobes: [0mdivergence.Repeat
+[1m[93mprobes: [0mdivergence.RepeatExtended 💤
+[1m[93mprobes: [0mdivergence.RepeatedToken
+[1m[93mprobes: [0mdoctor 🌟
+[1m[93mprobes: [0mdoctor.Bypass 💤
+[1m[93mprobes: [0mdoctor.BypassLeet 💤
+[1m[93mprobes: [0mdoctor.Puppetry 💤
+[1m[93mprobes: [0mdonotanswer 🌟
+[1m[93mprobes: [0mdonotanswer.DiscriminationExclusionToxicityHatefulOffensive 💤
+[1m[93mprobes: [0mdonotanswer.HumanChatbox 💤
+[1m[93mprobes: [0mdonotanswer.InformationHazard 💤
+[1m[93mprobes: [0mdonotanswer.MaliciousUses 💤
+[1m[93mprobes: [0mdonotanswer.MisinformationHarms 💤
+[1m[93mprobes: [0mdra 🌟
+[1m[93mprobes: [0mdra.DRA
+[1m[93mprobes: [0mdra.DRAAdvanced 💤
+[1m[93mprobes: [0mencoding 🌟
+[1m[93mprobes: [0mencoding.InjectAscii85
+[1m[93mprobes: [0mencoding.InjectAtbash
+[1m[93mprobes: [0mencoding.InjectBase16
+[1m[93mprobes: [0mencoding.InjectBase2048
+[1m[93mprobes: [0mencoding.InjectBase32
+[1m[93mprobes: [0mencoding.InjectBase64
+[1m[93mprobes: [0mencoding.InjectBraille
+[1m[93mprobes: [0mencoding.InjectEcoji
+[1m[93mprobes: [0mencoding.InjectHex
+[1m[93mprobes: [0mencoding.InjectLeet 💤
+[1m[93mprobes: [0mencoding.InjectMime 💤
+[1m[93mprobes: [0mencoding.InjectMorse
+[1m[93mprobes: [0mencoding.InjectNato
+[1m[93mprobes: [0mencoding.InjectQP 💤
+[1m[93mprobes: [0mencoding.InjectROT13
+[1m[93mprobes: [0mencoding.InjectSneakyBits 💤
+[1m[93mprobes: [0mencoding.InjectUU
+[1m[93mprobes: [0mencoding.InjectUnicodeTagChars
+[1m[93mprobes: [0mencoding.InjectUnicodeVariantSelectors 💤
+[1m[93mprobes: [0mencoding.InjectZalgo
+[1m[93mprobes: [0mexploitation 🌟
+[1m[93mprobes: [0mexploitation.JinjaTemplatePythonInjection
+[1m[93mprobes: [0mexploitation.SQLInjectionEcho
+[1m[93mprobes: [0mexploitation.SQLInjectionSystem 💤
+[1m[93mprobes: [0mfileformats 🌟
+[1m[93mprobes: [0mfileformats.HF_Files 💤
+[1m[93mprobes: [0mfitd 🌟
+[1m[93mprobes: [0mfitd.FITD 💤
+[1m[93mprobes: [0mglitch 🌟
+[1m[93mprobes: [0mglitch.Glitch 💤
+[1m[93mprobes: [0mglitch.GlitchFull 💤
+[1m[93mprobes: [0mgoodside 🌟
+[1m[93mprobes: [0mgoodside.Davidjl 💤
+[1m[93mprobes: [0mgoodside.Tag
+[1m[93mprobes: [0mgoodside.ThreatenJSON
+[1m[93mprobes: [0mgoodside.WhoIsRiley
+[1m[93mprobes: [0mgrandma 🌟
+[1m[93mprobes: [0mgrandma.Slurs
+[1m[93mprobes: [0mgrandma.Substances
+[1m[93mprobes: [0mgrandma.Win10
+[1m[93mprobes: [0mgrandma.Win11
+[1m[93mprobes: [0mlatentinjection 🌟
+[1m[93mprobes: [0mlatentinjection.LatentInjectionFactSnippetEiffel
+[1m[93mprobes: [0mlatentinjection.LatentInjectionFactSnippetEiffelFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentInjectionFactSnippetLegal
+[1m[93mprobes: [0mlatentinjection.LatentInjectionFactSnippetLegalFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentInjectionReport
+[1m[93mprobes: [0mlatentinjection.LatentInjectionReportFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentInjectionResume
+[1m[93mprobes: [0mlatentinjection.LatentInjectionResumeFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentInjectionTranslationEnFr
+[1m[93mprobes: [0mlatentinjection.LatentInjectionTranslationEnFrFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentInjectionTranslationEnZh
+[1m[93mprobes: [0mlatentinjection.LatentInjectionTranslationEnZhFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentJailbreak
+[1m[93mprobes: [0mlatentinjection.LatentJailbreakFull 💤
+[1m[93mprobes: [0mlatentinjection.LatentWhois
+[1m[93mprobes: [0mlatentinjection.LatentWhoisSnippet
+[1m[93mprobes: [0mlatentinjection.LatentWhoisSnippetFull 💤
+[1m[93mprobes: [0mleakreplay 🌟
+[1m[93mprobes: [0mleakreplay.GuardianCloze
+[1m[93mprobes: [0mleakreplay.GuardianClozeFull 💤
+[1m[93mprobes: [0mleakreplay.GuardianComplete
+[1m[93mprobes: [0mleakreplay.GuardianCompleteFull 💤
+[1m[93mprobes: [0mleakreplay.LiteratureCloze
+[1m[93mprobes: [0mleakreplay.LiteratureClozeFull 💤
+[1m[93mprobes: [0mleakreplay.LiteratureComplete
+[1m[93mprobes: [0mleakreplay.LiteratureCompleteFull 💤
+[1m[93mprobes: [0mleakreplay.NYTCloze
+[1m[93mprobes: [0mleakreplay.NYTClozeFull 💤
+[1m[93mprobes: [0mleakreplay.NYTComplete
+[1m[93mprobes: [0mleakreplay.NYTCompleteFull 💤
+[1m[93mprobes: [0mleakreplay.PotterCloze
+[1m[93mprobes: [0mleakreplay.PotterClozeFull 💤
+[1m[93mprobes: [0mleakreplay.PotterComplete
+[1m[93mprobes: [0mleakreplay.PotterCompleteFull 💤
+[1m[93mprobes: [0mlmrc 🌟
+[1m[93mprobes: [0mlmrc.Anthropomorphisation 💤
+[1m[93mprobes: [0mlmrc.Bullying
+[1m[93mprobes: [0mlmrc.Deadnaming
+[1m[93mprobes: [0mlmrc.Profanity 💤
+[1m[93mprobes: [0mlmrc.QuackMedicine
+[1m[93mprobes: [0mlmrc.SexualContent
+[1m[93mprobes: [0mlmrc.Sexualisation
+[1m[93mprobes: [0mlmrc.SlurUsage
+[1m[93mprobes: [0mmalwaregen 🌟
+[1m[93mprobes: [0mmalwaregen.Evasion
+[1m[93mprobes: [0mmalwaregen.Payload
+[1m[93mprobes: [0mmalwaregen.SubFunctions
+[1m[93mprobes: [0mmalwaregen.TopLevel
+[1m[93mprobes: [0mmisleading 🌟
+[1m[93mprobes: [0mmisleading.FalseAssertion
+[1m[93mprobes: [0mpackagehallucination 🌟
+[1m[93mprobes: [0mpackagehallucination.Dart
+[1m[93mprobes: [0mpackagehallucination.JavaScript
+[1m[93mprobes: [0mpackagehallucination.Perl
+[1m[93mprobes: [0mpackagehallucination.Python
+[1m[93mprobes: [0mpackagehallucination.RakuLand
+[1m[93mprobes: [0mpackagehallucination.Ruby
+[1m[93mprobes: [0mpackagehallucination.Rust
+[1m[93mprobes: [0mphrasing 🌟
+[1m[93mprobes: [0mphrasing.FutureTense
+[1m[93mprobes: [0mphrasing.FutureTenseFull 💤
+[1m[93mprobes: [0mphrasing.PastTense
+[1m[93mprobes: [0mphrasing.PastTenseFull 💤
+[1m[93mprobes: [0mpromptinject 🌟
+[1m[93mprobes: [0mpromptinject.HijackHateHumans
+[1m[93mprobes: [0mpromptinject.HijackHateHumansFull 💤
+[1m[93mprobes: [0mpromptinject.HijackKillHumans
+[1m[93mprobes: [0mpromptinject.HijackKillHumansFull 💤
+[1m[93mprobes: [0mpromptinject.HijackLongPrompt
+[1m[93mprobes: [0mpromptinject.HijackLongPromptFull 💤
+[1m[93mprobes: [0mrealtoxicityprompts 🌟
+[1m[93mprobes: [0mrealtoxicityprompts.RTPBlank
+[1m[93mprobes: [0mrealtoxicityprompts.RTPFlirtation 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPIdentity_Attack 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPInsult 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPProfanity 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPSevere_Toxicity 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPSexually_Explicit 💤
+[1m[93mprobes: [0mrealtoxicityprompts.RTPThreat 💤
+[1m[93mprobes: [0msata 🌟
+[1m[93mprobes: [0msata.MLM 💤
+[1m[93mprobes: [0msmuggling 🌟
+[1m[93mprobes: [0msmuggling.FunctionMasking 💤
+[1m[93mprobes: [0msmuggling.HypotheticalResponse 💤
+[1m[93mprobes: [0msnowball 🌟
+[1m[93mprobes: [0msnowball.GraphConnectivity
+[1m[93mprobes: [0msnowball.GraphConnectivityFull 💤
+[1m[93mprobes: [0msnowball.Primes 💤
+[1m[93mprobes: [0msnowball.PrimesFull 💤
+[1m[93mprobes: [0msnowball.Senators 💤
+[1m[93mprobes: [0msnowball.SenatorsFull 💤
+[1m[93mprobes: [0msuffix 🌟
+[1m[93mprobes: [0msuffix.BEAST 💤
+[1m[93mprobes: [0msuffix.GCG 💤
+[1m[93mprobes: [0msuffix.GCGCached
+[1m[93mprobes: [0mtap 🌟
+[1m[93mprobes: [0mtap.PAIR 💤
+[1m[93mprobes: [0mtap.TAP 💤
+[1m[93mprobes: [0mtap.TAPCached
+[1m[93mprobes: [0mtest 🌟
+[1m[93mprobes: [0mtest.Blank 💤
+[1m[93mprobes: [0mtest.Test 💤
+[1m[93mprobes: [0mtopic 🌟
+[1m[93mprobes: [0mtopic.WordnetAllowedWords 💤
+[1m[93mprobes: [0mtopic.WordnetBlockedWords 💤
+[1m[93mprobes: [0mtopic.WordnetControversial
+[1m[93mprobes: [0mvisual_jailbreak 🌟
+[1m[93mprobes: [0mvisual_jailbreak.FigStep 💤
+[1m[93mprobes: [0mvisual_jailbreak.FigStepFull 💤
+[1m[93mprobes: [0mweb_injection 🌟
+[1m[93mprobes: [0mweb_injection.ColabAIDataLeakage
+[1m[93mprobes: [0mweb_injection.MarkdownImageExfil
+[1m[93mprobes: [0mweb_injection.MarkdownURIImageExfilExtended
+[1m[93mprobes: [0mweb_injection.MarkdownURINonImageExfilExtended
+[1m[93mprobes: [0mweb_injection.MarkdownXSS
+[1m[93mprobes: [0mweb_injection.PlaygroundMarkdownExfil
+[1m[93mprobes: [0mweb_injection.StringAssemblyDataExfil
+[1m[93mprobes: [0mweb_injection.TaskXSS
+
+2026-01-22 22:28:37,496 - adapters.garak - ERROR - Garak stderr: 
+2026-01-22 22:28:37,496 - adapters.garak - INFO - Garak return code: 0
+2026-01-22 22:28:37,496 - adapters.garak - INFO - Line clean: 'garak LLM vulnerability scanner v0.13.3 ( https://github.com/NVIDIA/garak ) at 2026-01-22T22:28:37.244082'
+2026-01-22 22:28:37,496 - adapters.garak - INFO - Line clean: 'probes: ansiescape 🌟'
+2026-01-22 22:28:37,496 - adapters.garak - INFO - Line clean: 'probes: ansiescape.AnsiEscaped'
+2026-01-22 22:28:37,496 - adapters.garak - INFO - Line clean: 'probes: ansiescape.AnsiRaw'
+2026-01-22 22:28:37,496 - adapters.garak - INFO - Line clean: 'probes: ansiescape.AnsiRawTokenizerHF 💤'
+2026-01-22 22:28:37,497 - adapters.garak - INFO - Parsed 218 probes.
+INFO:     10.4.7.201:54036 - "GET /api/v1/garak/probes HTTP/1.1" 200 OK
+2026-01-22 22:28:43,997 - httpx - INFO - HTTP Request: POST https://kali:3443//api/v1/targets "HTTP/1.1 201 Created"
+2026-01-22 22:28:44,030 - httpx - INFO - HTTP Request: POST https://kali:3443//api/v1/scans "HTTP/1.1 201 Created"
+INFO:     10.4.7.201:37072 - "POST /api/v1/acunetix/scan HTTP/1.1" 200 OK
+2026-01-22 22:28:44,097 - httpx - INFO - HTTP Request: GET https://kali:3443//api/v1/scans/97b5c6b6-2d19-4264-a46a-59bb6e254e4c "HTTP/1.1 200 OK"
+INFO:     10.4.7.201:37082 - "GET /api/v1/acunetix/status/a508e3bf-479e-48ab-baba-6d1999ff3fcd HTTP/1.1" 200 OK
+2026-01-22 22:28:44,099 - httpx - INFO - HTTP Request: GET https://kali:3443//api/v1/scans/97b5c6b6-2d19-4264-a46a-59bb6e254e4c "HTTP/1.1 200 OK"
+INFO:     10.4.7.201:37072 - "GET /api/v1/acunetix/results/a508e3bf-479e-48ab-baba-6d1999ff3fcd HTTP/1.1" 200 OK
+INFO:     10.4.7.201:40398 - "GET /api/v1/dashboard/summary HTTP/1.1" 200 OK
+INFO:     10.4.7.201:40406 - "GET /api/v1/dashboard/scans?limit=10 HTTP/1.1" 200 OK
+INFO:     10.4.7.201:40398 - "GET /api/v1/dashboard/summary HTTP/1.1" 200 OK
+INFO:     10.4.7.201:40406 - "GET /api/v1/dashboard/scans?limit=10 HTTP/1.1" 200 OK
+INFO:     10.4.7.201:40398 - "GET /api/v1/dashboard/summary HTTP/1.1" 200 OK
+INFO:     10.4.7.201:40406 - "GET /api/v1/dashboard/scans?limit=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32900 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32900 - "GET /openapi.json HTTP/1.1" 200 OK
